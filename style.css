@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: white;
+  padding: 20px;
+}
+
+#container {
+  position: relative;
+  display: block;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.node {
+  position: absolute; /* independientes */
+  background: #2e2e2e;
+  border: 2px solid #666;
+  border-radius: 6px;
+  padding: 8px 12px;
+  text-align: center;
+  min-width: 120px;
+  z-index: 2;
+}
+
+.node .name {
+  font-weight: bold;
+}
+
+.node .notes {
+  font-size: 0.9em;
+  color: #ffdd55;
+}
+
+#connections {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}

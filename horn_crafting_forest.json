@@ -1,0 +1,3321 @@
+{
+  "forest": [
+    {
+      "id": 429,
+      "name_en": "Metal Bagpipe I",
+      "notes": "WRB",
+      "rarity": 1,
+      "attack": 336,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 430,
+          "name_en": "Metal Bagpipe II",
+          "notes": "WRB",
+          "rarity": 1,
+          "attack": 378,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 431,
+              "name_en": "Metal Bagpipe III",
+              "notes": "WRB",
+              "rarity": 2,
+              "attack": 420,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 432,
+                  "name_en": "Great Bagpipe I",
+                  "notes": "WRB",
+                  "rarity": 3,
+                  "attack": 462,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 433,
+                      "name_en": "Great Bagpipe II",
+                      "notes": "WRB",
+                      "rarity": 4,
+                      "attack": 546,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 434,
+                          "name_en": "Great Bagpipe III",
+                          "notes": "WRB",
+                          "rarity": 5,
+                          "attack": 588,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 435,
+                              "name_en": "Fortissimo I",
+                              "notes": "PRB",
+                              "rarity": 6,
+                              "attack": 672,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 436,
+                                  "name_en": "Fortissimo II",
+                                  "notes": "PRB",
+                                  "rarity": 6,
+                                  "attack": 756,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2419,
+                                      "name_en": "Sforzando I",
+                                      "notes": "PRB",
+                                      "rarity": 9,
+                                      "attack": 924,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2420,
+                                          "name_en": "Sforzando II",
+                                          "notes": "PRB",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2421,
+                                              "name_en": "Sforzando III",
+                                              "notes": "PRB",
+                                              "rarity": 11,
+                                              "attack": 1092,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": 2422,
+                                              "name_en": "Raven Shamisen",
+                                              "notes": "PGO",
+                                              "rarity": 10,
+                                              "attack": 1092,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2423,
+                                                  "name_en": "Wolf Shamisen",
+                                                  "notes": "PGO",
+                                                  "rarity": 11,
+                                                  "attack": 1134,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": 437,
+                                  "name_en": "Nergal Groove",
+                                  "notes": "PGO",
+                                  "rarity": 7,
+                                  "attack": 840,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 438,
+                                      "name_en": "Desolation's Overture",
+                                      "notes": "PGO",
+                                      "rarity": 8,
+                                      "attack": 882,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2424,
+                                          "name_en": "Ruinous Desolation",
+                                          "notes": "PGO",
+                                          "rarity": 12,
+                                          "attack": 1218,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 439,
+                  "name_en": "Thunder Gaida I",
+                  "notes": "WGC",
+                  "rarity": 3,
+                  "attack": 504,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 440,
+                      "name_en": "Thunder Gaida II",
+                      "notes": "WGC",
+                      "rarity": 4,
+                      "attack": 546,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 441,
+                          "name_en": "Lightning Drum I",
+                          "notes": "PGC",
+                          "rarity": 5,
+                          "attack": 630,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 442,
+                              "name_en": "Lightning Drum II",
+                              "notes": "PGC",
+                              "rarity": 6,
+                              "attack": 714,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 443,
+                                  "name_en": "Lightning Drum III",
+                                  "notes": "PGC",
+                                  "rarity": 6,
+                                  "attack": 756,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2425,
+                                      "name_en": "Lightning Drum IV",
+                                      "notes": "PGC",
+                                      "rarity": 9,
+                                      "attack": 882,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2426,
+                                          "name_en": "Usurper's Growl",
+                                          "notes": "PYO",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2427,
+                                              "name_en": "Usurper's Growl+",
+                                              "notes": "PYO",
+                                              "rarity": 11,
+                                              "attack": 1050,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2428,
+                                                  "name_en": "Despot's Thunderclap",
+                                                  "notes": "PYO",
+                                                  "rarity": 12,
+                                                  "attack": 1092,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 444,
+              "name_en": "Kulu Duda I",
+              "notes": "WBC",
+              "rarity": 2,
+              "attack": 420,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 445,
+                  "name_en": "Kulu Duda II",
+                  "notes": "WBC",
+                  "rarity": 3,
+                  "attack": 504,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 446,
+                      "name_en": "Kulu Duda III",
+                      "notes": "WBC",
+                      "rarity": 4,
+                      "attack": 588,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 447,
+                          "name_en": "Dancing Davul I",
+                          "notes": "PBC",
+                          "rarity": 5,
+                          "attack": 630,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 448,
+                              "name_en": "Dancing Davul II",
+                              "notes": "PBC",
+                              "rarity": 6,
+                              "attack": 672,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 449,
+                                  "name_en": "Dancing Davul III",
+                                  "notes": "PBC",
+                                  "rarity": 6,
+                                  "attack": 714,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2429,
+                                      "name_en": "Taghrid al-Nasr I",
+                                      "notes": "PBC",
+                                      "rarity": 9,
+                                      "attack": 966,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2430,
+                                          "name_en": "Taghrid al-Nasr II",
+                                          "notes": "PBC",
+                                          "rarity": 10,
+                                          "attack": 1092,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 2431,
+                                          "name_en": "Striped Dragonga",
+                                          "notes": "PRC",
+                                          "rarity": 10,
+                                          "attack": 1050,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2432,
+                                              "name_en": "Striped Dragonga+",
+                                              "notes": "PRC",
+                                              "rarity": 10,
+                                              "attack": 1092,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2433,
+                                                  "name_en": "Tigrex Horn",
+                                                  "notes": "PRC",
+                                                  "rarity": 11,
+                                                  "attack": 1176,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": 2434,
+                                              "name_en": "Accursed Wail",
+                                              "notes": "PRG",
+                                              "rarity": 11,
+                                              "attack": 1176,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2435,
+                                                  "name_en": "Ogrebite",
+                                                  "notes": "PRG",
+                                                  "rarity": 12,
+                                                  "attack": 1218,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 450,
+                  "name_en": "Valkyrie Chordmaker",
+                  "notes": "WBY",
+                  "rarity": 3,
+                  "attack": 462,
+                  "craftable": true,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 451,
+                      "name_en": "Queen Chordmaker",
+                      "notes": "PBY",
+                      "rarity": 5,
+                      "attack": 630,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 452,
+                          "name_en": "Coral Chordmaker",
+                          "notes": "PBY",
+                          "rarity": 6,
+                          "attack": 714,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 453,
+                              "name_en": "Royal Chordmaker",
+                              "notes": "PBY",
+                              "rarity": 7,
+                              "attack": 798,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 2436,
+                                  "name_en": "Royal Chordmaker+",
+                                  "notes": "PBY",
+                                  "rarity": 9,
+                                  "attack": 924,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2437,
+                                      "name_en": "Regal Flute",
+                                      "notes": "PBY",
+                                      "rarity": 10,
+                                      "attack": 1008,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2438,
+                                          "name_en": "Gold Chordmaker",
+                                          "notes": "PBY",
+                                          "rarity": 12,
+                                          "attack": 1134,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 454,
+              "name_en": "Aqua Bagpipe I",
+              "notes": "WRC",
+              "rarity": 2,
+              "attack": 420,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 455,
+                  "name_en": "Aqua Bagpipe II",
+                  "notes": "WRC",
+                  "rarity": 3,
+                  "attack": 504,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 456,
+                      "name_en": "Aqua Bagpipe III",
+                      "notes": "WRC",
+                      "rarity": 4,
+                      "attack": 546,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 457,
+                          "name_en": "Water Tamtam I",
+                          "notes": "PRC",
+                          "rarity": 5,
+                          "attack": 588,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 458,
+                              "name_en": "Water Tamtam II",
+                              "notes": "PRC",
+                              "rarity": 6,
+                              "attack": 672,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 459,
+                                  "name_en": "Water Tamtam III",
+                                  "notes": "PRC",
+                                  "rarity": 6,
+                                  "attack": 756,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2439,
+                                      "name_en": "Water Tamtam IV",
+                                      "notes": "PRC",
+                                      "rarity": 9,
+                                      "attack": 882,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2440,
+                                          "name_en": "Laguna Drum I",
+                                          "notes": "PRC",
+                                          "rarity": 9,
+                                          "attack": 924,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2441,
+                                              "name_en": "Laguna Drum II",
+                                              "notes": "PRC",
+                                              "rarity": 10,
+                                              "attack": 1008,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": 2442,
+                                          "name_en": "Hidden Harmonic",
+                                          "notes": "PBC",
+                                          "rarity": 10,
+                                          "attack": 924,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2443,
+                                              "name_en": "Hidden Harmonic+",
+                                              "notes": "PBC",
+                                              "rarity": 10,
+                                              "attack": 966,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2444,
+                                                  "name_en": "Cry in the Night",
+                                                  "notes": "PBC",
+                                                  "rarity": 11,
+                                                  "attack": 1008,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": 460,
+                      "name_en": "Glacial Bagpipe I",
+                      "notes": "WBG",
+                      "rarity": 4,
+                      "attack": 546,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 461,
+                          "name_en": "Glacial Bagpipe II",
+                          "notes": "WBG",
+                          "rarity": 5,
+                          "attack": 588,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 462,
+                              "name_en": "Sectored",
+                              "notes": "PBG",
+                              "rarity": 6,
+                              "attack": 630,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 463,
+                                  "name_en": "Legia Sectored",
+                                  "notes": "PBG",
+                                  "rarity": 7,
+                                  "attack": 672,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2445,
+                                      "name_en": "Legia Sectored+",
+                                      "notes": "PBG",
+                                      "rarity": 10,
+                                      "attack": 882,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2446,
+                                          "name_en": "Hoarcry Sectored",
+                                          "notes": "PBG",
+                                          "rarity": 10,
+                                          "attack": 924,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2447,
+                                              "name_en": "Lilim Glacia",
+                                              "notes": "PBG",
+                                              "rarity": 11,
+                                              "attack": 1008,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "name_en": "Bone Horn I",
+      "notes": "WRC",
+      "rarity": 1,
+      "attack": 420,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 465,
+          "name_en": "Bone Horn II",
+          "notes": "WRC",
+          "rarity": 1,
+          "attack": 462,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 466,
+              "name_en": "Bone Horn III",
+              "notes": "WRC",
+              "rarity": 2,
+              "attack": 504,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 467,
+                  "name_en": "Hard Bone Horn I",
+                  "notes": "WRC",
+                  "rarity": 3,
+                  "attack": 588,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 468,
+                      "name_en": "Hard Bone Horn II",
+                      "notes": "WRC",
+                      "rarity": 4,
+                      "attack": 630,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 469,
+                          "name_en": "Hard Bone Horn III",
+                          "notes": "WRC",
+                          "rarity": 5,
+                          "attack": 672,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 470,
+                              "name_en": "Heavy Bone Horn I",
+                              "notes": "PRC",
+                              "rarity": 6,
+                              "attack": 714,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 471,
+                                  "name_en": "Heavy Bone Horn II",
+                                  "notes": "PRC",
+                                  "rarity": 6,
+                                  "attack": 798,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2448,
+                                      "name_en": "Mad Bone Horn I",
+                                      "notes": "PRC",
+                                      "rarity": 9,
+                                      "attack": 966,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2449,
+                                          "name_en": "Mad Bone Horn II",
+                                          "notes": "PRC",
+                                          "rarity": 10,
+                                          "attack": 1050,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2450,
+                                              "name_en": "Mad Bone Horn III",
+                                              "notes": "PRC",
+                                              "rarity": 11,
+                                              "attack": 1176,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": 2451,
+                                              "name_en": "Icespiel",
+                                              "notes": "PRB",
+                                              "rarity": 11,
+                                              "attack": 1092,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2452,
+                                                  "name_en": "Sonorous Eisfyl",
+                                                  "notes": "PRB",
+                                                  "rarity": 12,
+                                                  "attack": 1134,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 472,
+                              "name_en": "Gama Horn I",
+                              "notes": "PRB",
+                              "rarity": 6,
+                              "attack": 756,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 473,
+                                  "name_en": "Gama Horn II",
+                                  "notes": "PRB",
+                                  "rarity": 7,
+                                  "attack": 798,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2453,
+                                      "name_en": "Gama Chorus I",
+                                      "notes": "PRB",
+                                      "rarity": 9,
+                                      "attack": 924,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2454,
+                                          "name_en": "Gama Chorus II",
+                                          "notes": "PRB",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 2455,
+                                          "name_en": "Hell Horn",
+                                          "notes": "PRG",
+                                          "rarity": 10,
+                                          "attack": 924,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2456,
+                                              "name_en": "Hell Horn+",
+                                              "notes": "PRG",
+                                              "rarity": 10,
+                                              "attack": 1008,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2457,
+                                                  "name_en": "Glavenus Horn",
+                                                  "notes": "PRG",
+                                                  "rarity": 11,
+                                                  "attack": 1092,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 474,
+                  "name_en": "Blazing Horn I",
+                  "notes": "WBG",
+                  "rarity": 3,
+                  "attack": 546,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 475,
+                      "name_en": "Blazing Horn II",
+                      "notes": "WBG",
+                      "rarity": 4,
+                      "attack": 630,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 476,
+                          "name_en": "Anja Barone I",
+                          "notes": "PBG",
+                          "rarity": 5,
+                          "attack": 672,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 477,
+                              "name_en": "Anja Barone II",
+                              "notes": "PBG",
+                              "rarity": 6,
+                              "attack": 798,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 478,
+                                  "name_en": "Anja Barone III",
+                                  "notes": "PBG",
+                                  "rarity": 6,
+                                  "attack": 882,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2458,
+                                      "name_en": "Anjanath Hum I",
+                                      "notes": "PBG",
+                                      "rarity": 9,
+                                      "attack": 966,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2459,
+                                          "name_en": "Anjanath Hum II",
+                                          "notes": "PBG",
+                                          "rarity": 10,
+                                          "attack": 1134,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 2460,
+                                          "name_en": "Fulguring Horn I",
+                                          "notes": "PRB",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2461,
+                                              "name_en": "Fulguring Horn II",
+                                              "notes": "PRB",
+                                              "rarity": 10,
+                                              "attack": 1050,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": 2462,
+                                              "name_en": "Sulfurteinn Svild",
+                                              "notes": "PRO",
+                                              "rarity": 10,
+                                              "attack": 1134,
+                                              "craftable": false,
+                                              "final": false,
+                                              "children": [
+                                                {
+                                                  "id": 2463,
+                                                  "name_en": "The Rasping Ballad",
+                                                  "notes": "PRO",
+                                                  "rarity": 11,
+                                                  "attack": 1218,
+                                                  "craftable": false,
+                                                  "final": true,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 479,
+              "name_en": "Blooming Horn I",
+              "notes": "WGC",
+              "rarity": 2,
+              "attack": 504,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 480,
+                  "name_en": "Blooming Horn II",
+                  "notes": "WGC",
+                  "rarity": 3,
+                  "attack": 546,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 481,
+                      "name_en": "Blooming Horn III",
+                      "notes": "WGC",
+                      "rarity": 4,
+                      "attack": 588,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 482,
+                          "name_en": "Datura Horn I",
+                          "notes": "PGC",
+                          "rarity": 5,
+                          "attack": 630,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 483,
+                              "name_en": "Datura Horn II",
+                              "notes": "PGC",
+                              "rarity": 6,
+                              "attack": 672,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 484,
+                                  "name_en": "Datura Horn III",
+                                  "notes": "PGC",
+                                  "rarity": 6,
+                                  "attack": 714,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2464,
+                                      "name_en": "Datura Maestro I",
+                                      "notes": "PGC",
+                                      "rarity": 9,
+                                      "attack": 840,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2465,
+                                          "name_en": "Datura Maestro II",
+                                          "notes": "PGC",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 2466,
+                                          "name_en": "Icicle Horn I",
+                                          "notes": "PRY",
+                                          "rarity": 10,
+                                          "attack": 966,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2467,
+                                              "name_en": "Icicle Horn II",
+                                              "notes": "PRY",
+                                              "rarity": 10,
+                                              "attack": 1050,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": 3227,
+                                              "name_en": "Bringuiro",
+                                              "notes": "PRY",
+                                              "rarity": 11,
+                                              "attack": 1134,
+                                              "craftable": true,
+                                              "final": true,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 485,
+                  "name_en": "Lumu Horn I",
+                  "notes": "WBC",
+                  "rarity": 3,
+                  "attack": 546,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 486,
+                      "name_en": "Lumu Horn II",
+                      "notes": "WBC",
+                      "rarity": 4,
+                      "attack": 588,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 487,
+                          "name_en": "Lumu Barone I",
+                          "notes": "PBC",
+                          "rarity": 5,
+                          "attack": 630,
+                          "craftable": true,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 488,
+                              "name_en": "Lumu Barone II",
+                              "notes": "PBC",
+                              "rarity": 6,
+                              "attack": 672,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 489,
+                                  "name_en": "Lumu Barone III",
+                                  "notes": "PBC",
+                                  "rarity": 6,
+                                  "attack": 714,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2468,
+                                      "name_en": "Lumu Drone I",
+                                      "notes": "PBC",
+                                      "rarity": 9,
+                                      "attack": 1008,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2469,
+                                          "name_en": "Lumu Drone II",
+                                          "notes": "PBC",
+                                          "rarity": 10,
+                                          "attack": 1050,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": 2470,
+                                      "name_en": "Nyx Barone I",
+                                      "notes": "PCO",
+                                      "rarity": 9,
+                                      "attack": 924,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2471,
+                                          "name_en": "Nyx Barone II",
+                                          "notes": "PCO",
+                                          "rarity": 10,
+                                          "attack": 1008,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": 490,
+                              "name_en": "Rookslayer Drum",
+                              "notes": "PRG",
+                              "rarity": 6,
+                              "attack": 756,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 491,
+                                  "name_en": "Bazelreid Rookslayer",
+                                  "notes": "PRG",
+                                  "rarity": 8,
+                                  "attack": 840,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2472,
+                                      "name_en": "Rooksearer Drum",
+                                      "notes": "PRG",
+                                      "rarity": 11,
+                                      "attack": 1008,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2473,
+                                          "name_en": "Bazel Valdi Rooksearer",
+                                          "notes": "PRG",
+                                          "rarity": 12,
+                                          "attack": 1092,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 492,
+              "name_en": "Sonic Horn I",
+              "notes": "WBY",
+              "rarity": 2,
+              "attack": 462,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 493,
+                  "name_en": "Sonic Horn II",
+                  "notes": "WBY",
+                  "rarity": 3,
+                  "attack": 504,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 494,
+                      "name_en": "Sonic Horn III",
+                      "notes": "WBY",
+                      "rarity": 4,
+                      "attack": 546,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 495,
+                          "name_en": "Glass Royale",
+                          "notes": "PBY",
+                          "rarity": 5,
+                          "attack": 588,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 496,
+                              "name_en": "Glass Royale+",
+                              "notes": "PBY",
+                              "rarity": 6,
+                              "attack": 630,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 497,
+                                  "name_en": "Queen Vespoid Horn",
+                                  "notes": "PBY",
+                                  "rarity": 7,
+                                  "attack": 672,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2474,
+                                      "name_en": "Queen Vespoid Horn+",
+                                      "notes": "PBY",
+                                      "rarity": 10,
+                                      "attack": 1008,
+                                      "craftable": false,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2475,
+                                          "name_en": "Queen's Flute II",
+                                          "notes": "PBY",
+                                          "rarity": 11,
+                                          "attack": 1092,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": 498,
+                  "name_en": "Spiked Horn I",
+                  "notes": "WRY",
+                  "rarity": 3,
+                  "attack": 546,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 499,
+                      "name_en": "Spiked Horn II",
+                      "notes": "WRY",
+                      "rarity": 4,
+                      "attack": 588,
+                      "craftable": false,
+                      "final": false,
+                      "children": [
+                        {
+                          "id": 500,
+                          "name_en": "Baan Horn I",
+                          "notes": "PRY",
+                          "rarity": 5,
+                          "attack": 672,
+                          "craftable": false,
+                          "final": false,
+                          "children": [
+                            {
+                              "id": 501,
+                              "name_en": "Baan Horn II",
+                              "notes": "PRY",
+                              "rarity": 6,
+                              "attack": 756,
+                              "craftable": false,
+                              "final": false,
+                              "children": [
+                                {
+                                  "id": 502,
+                                  "name_en": "Baan Horn III",
+                                  "notes": "PRY",
+                                  "rarity": 6,
+                                  "attack": 798,
+                                  "craftable": false,
+                                  "final": false,
+                                  "children": [
+                                    {
+                                      "id": 2476,
+                                      "name_en": "Baan Rattle I",
+                                      "notes": "PRY",
+                                      "rarity": 9,
+                                      "attack": 924,
+                                      "craftable": true,
+                                      "final": false,
+                                      "children": [
+                                        {
+                                          "id": 2477,
+                                          "name_en": "Baan Rattle II",
+                                          "notes": "PRY",
+                                          "rarity": 10,
+                                          "attack": 1050,
+                                          "craftable": false,
+                                          "final": true,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": 2478,
+                                          "name_en": "Brachydios Horn I",
+                                          "notes": "PBC",
+                                          "rarity": 10,
+                                          "attack": 966,
+                                          "craftable": false,
+                                          "final": false,
+                                          "children": [
+                                            {
+                                              "id": 2479,
+                                              "name_en": "Brachydios Horn II",
+                                              "notes": "PBC",
+                                              "rarity": 10,
+                                              "attack": 1050,
+                                              "craftable": false,
+                                              "final": true,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name_en": "Dragonbone Auldhorn I",
+      "notes": "WCY",
+      "rarity": 3,
+      "attack": 420,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 504,
+          "name_en": "Dragonbone Auldhorn II",
+          "notes": "WCY",
+          "rarity": 4,
+          "attack": 462,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 505,
+              "name_en": "Dragonbone Auldhorn III",
+              "notes": "PCY",
+              "rarity": 6,
+              "attack": 672,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 2480,
+                  "name_en": "Dragonseal Aldhorn I",
+                  "notes": "PCY",
+                  "rarity": 10,
+                  "attack": 882,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 2481,
+                      "name_en": "Dragonseal Aldhorn II",
+                      "notes": "PCY",
+                      "rarity": 11,
+                      "attack": 1008,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    },
+                    {
+                      "id": 2482,
+                      "name_en": "Austere Paradise",
+                      "notes": "PBO",
+                      "rarity": 12,
+                      "attack": 1176,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 506,
+          "name_en": "Thundercry Horn",
+          "notes": "WGY",
+          "rarity": 4,
+          "attack": 504,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 507,
+              "name_en": "Thunderbolt Horn I",
+              "notes": "PGY",
+              "rarity": 6,
+              "attack": 588,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 508,
+                  "name_en": "Thunderbolt Horn II",
+                  "notes": "PGY",
+                  "rarity": 7,
+                  "attack": 672,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 2483,
+                      "name_en": "Thunderwail Feyhorn",
+                      "notes": "PGY",
+                      "rarity": 11,
+                      "attack": 1008,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    },
+                    {
+                      "id": 2484,
+                      "name_en": "Hydros Horn",
+                      "notes": "PYO",
+                      "rarity": 11,
+                      "attack": 1134,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "name_en": "Blacksteel Dragonhorn I",
+      "notes": "PCY",
+      "rarity": 5,
+      "attack": 420,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 510,
+          "name_en": "Blacksteel Dragonhorn II",
+          "notes": "PCY",
+          "rarity": 6,
+          "attack": 462,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 511,
+              "name_en": "Teostra's Tiple",
+              "notes": "PCO",
+              "rarity": 7,
+              "attack": 756,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 512,
+                  "name_en": "Teostra's Orphée",
+                  "notes": "PCO",
+                  "rarity": 8,
+                  "attack": 798,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 2485,
+                      "name_en": "Teostra's Musica",
+                      "notes": "PCO",
+                      "rarity": 11,
+                      "attack": 1092,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 513,
+              "name_en": "Xeno Manasheena",
+              "notes": "PBO",
+              "rarity": 8,
+              "attack": 714,
+              "craftable": false,
+              "final": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1160,
+      "name_en": "Devil's Maestro",
+      "notes": "PRB",
+      "rarity": 6,
+      "attack": 840,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 1161,
+          "name_en": "Deep Vero",
+          "notes": "PRB",
+          "rarity": 7,
+          "attack": 924,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 2486,
+              "name_en": "Fate's Dirge",
+              "notes": "PRB",
+              "rarity": 12,
+              "attack": 1176,
+              "craftable": false,
+              "final": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1214,
+      "name_en": "Empress Roar",
+      "notes": "PRO",
+      "rarity": 7,
+      "attack": 798,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 1215,
+          "name_en": "Empress Roar \"Blaze\"",
+          "notes": "PRO",
+          "rarity": 8,
+          "attack": 798,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 2487,
+              "name_en": "Soulfire Chorus \"Blaze\"",
+              "notes": "PRO",
+              "rarity": 12,
+              "attack": 1050,
+              "craftable": false,
+              "final": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 1216,
+          "name_en": "Empress Roar \"Ruin\"",
+          "notes": "PGO",
+          "rarity": 8,
+          "attack": 840,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 2488,
+              "name_en": "Soulfire Chorus \"Ruin\"",
+              "notes": "PGO",
+              "rarity": 12,
+              "attack": 1134,
+              "craftable": false,
+              "final": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 1217,
+          "name_en": "Empress Roar \"Styx\"",
+          "notes": "PBO",
+          "rarity": 8,
+          "attack": 798,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 2489,
+              "name_en": "Soulfire Chorus \"Styx\"",
+              "notes": "PBO",
+              "rarity": 12,
+              "attack": 1050,
+              "craftable": false,
+              "final": true,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2414,
+      "name_en": "Defender Rally Horn I",
+      "notes": "WGC",
+      "rarity": 1,
+      "attack": 546,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 2415,
+          "name_en": "Defender Rally Horn II",
+          "notes": "WGC",
+          "rarity": 3,
+          "attack": 714,
+          "craftable": false,
+          "final": false,
+          "children": [
+            {
+              "id": 2416,
+              "name_en": "Defender Rally Horn III",
+              "notes": "PGC",
+              "rarity": 5,
+              "attack": 798,
+              "craftable": false,
+              "final": false,
+              "children": [
+                {
+                  "id": 2417,
+                  "name_en": "Defender Rally Horn IV",
+                  "notes": "PGC",
+                  "rarity": 6,
+                  "attack": 882,
+                  "craftable": false,
+                  "final": false,
+                  "children": [
+                    {
+                      "id": 2418,
+                      "name_en": "Defender Rally Horn V",
+                      "notes": "PGC",
+                      "rarity": 7,
+                      "attack": 924,
+                      "craftable": false,
+                      "final": true,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2490,
+      "name_en": "Guild Palace Bard",
+      "notes": "PRB",
+      "rarity": 10,
+      "attack": 1050,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 2491,
+          "name_en": "Royal Song Symphony",
+          "notes": "PRB",
+          "rarity": 12,
+          "attack": 1134,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3142,
+      "name_en": "Denden Daiko",
+      "notes": "PBO",
+      "rarity": 11,
+      "attack": 1218,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 3143,
+          "name_en": "Denden Doomsounder",
+          "notes": "PBO",
+          "rarity": 12,
+          "attack": 1302,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3144,
+      "name_en": "Demonlord Wardrum",
+      "notes": "PRG",
+      "rarity": 12,
+      "attack": 1176,
+      "craftable": true,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 3145,
+      "name_en": "Brimstren Drakesong",
+      "notes": "PYO",
+      "rarity": 11,
+      "attack": 1050,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 3146,
+          "name_en": "Stygian Tristitia",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1134,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3147,
+      "name_en": "Lightbreak Timbre",
+      "notes": "PCO",
+      "rarity": 12,
+      "attack": 1260,
+      "craftable": true,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 3204,
+      "name_en": "Alatreon Harmony",
+      "notes": "PYO",
+      "rarity": 11,
+      "attack": 1050,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 3205,
+          "name_en": "Alatreon Revival",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1176,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3248,
+      "name_en": "Fatalis Menace",
+      "notes": "PRO",
+      "rarity": 11,
+      "attack": 1302,
+      "craftable": true,
+      "final": false,
+      "children": [
+        {
+          "id": 3249,
+          "name_en": "Fatalis Menace Wailer",
+          "notes": "PRO",
+          "rarity": 12,
+          "attack": 1470,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10132,
+      "name_en": "Gold Water Flute",
+      "notes": "PYO",
+      "rarity": 6,
+      "attack": 630,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10624,
+          "name_en": "Gold Water Flute (MR)",
+          "notes": "PYO",
+          "rarity": 10,
+          "attack": 1008,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10133,
+      "name_en": "Gold Dragon Flute",
+      "notes": "PYO",
+      "rarity": 6,
+      "attack": 672,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10625,
+          "name_en": "Gold Dragon Flute (MR)",
+          "notes": "PYO",
+          "rarity": 10,
+          "attack": 1050,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10134,
+      "name_en": "Gold Paralysis Flute",
+      "notes": "PBY",
+      "rarity": 6,
+      "attack": 588,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10626,
+          "name_en": "Gold Paralysis Flute (MR)",
+          "notes": "PBY",
+          "rarity": 10,
+          "attack": 966,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10135,
+      "name_en": "Buzzer Gold Flute",
+      "notes": "PBY",
+      "rarity": 6,
+      "attack": 546,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10627,
+          "name_en": "Buzzer Gold Flute (MR)",
+          "notes": "PBY",
+          "rarity": 10,
+          "attack": 924,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10136,
+      "name_en": "Thief Gold Flute",
+      "notes": "PBC",
+      "rarity": 6,
+      "attack": 588,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10628,
+          "name_en": "Thief Gold Flute (MR)",
+          "notes": "PBC",
+          "rarity": 10,
+          "attack": 966,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10137,
+      "name_en": "Spew Gold Flute",
+      "notes": "PGC",
+      "rarity": 6,
+      "attack": 630,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10629,
+          "name_en": "Spew Gold Flute (MR)",
+          "notes": "PGC",
+          "rarity": 10,
+          "attack": 1008,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10138,
+      "name_en": "Rage Gold Flute",
+      "notes": "PBG",
+      "rarity": 6,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10630,
+          "name_en": "Rage Gold Flute (MR)",
+          "notes": "PBG",
+          "rarity": 10,
+          "attack": 1092,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10139,
+      "name_en": "Drifter Gold Flute",
+      "notes": "PBC",
+      "rarity": 6,
+      "attack": 630,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10631,
+          "name_en": "Drifter Gold Flute (MR)",
+          "notes": "PBC",
+          "rarity": 10,
+          "attack": 1008,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10140,
+      "name_en": "Stream Gold Flute",
+      "notes": "PBG",
+      "rarity": 6,
+      "attack": 588,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10632,
+          "name_en": "Stream Gold Flute (MR)",
+          "notes": "PBG",
+          "rarity": 10,
+          "attack": 966,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10141,
+      "name_en": "Tar Gold Flute",
+      "notes": "PRY",
+      "rarity": 6,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10633,
+          "name_en": "Tar Gold Flute (MR)",
+          "notes": "PRY",
+          "rarity": 10,
+          "attack": 1092,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10142,
+      "name_en": "Myth Gold Flute",
+      "notes": "PGY",
+      "rarity": 6,
+      "attack": 504,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10634,
+          "name_en": "Myth Gold Flute (MR)",
+          "notes": "PGY",
+          "rarity": 10,
+          "attack": 882,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10143,
+      "name_en": "Crusher Gold Flute",
+      "notes": "PRB",
+      "rarity": 6,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10635,
+          "name_en": "Crusher Gold Flute (MR)",
+          "notes": "PRB",
+          "rarity": 10,
+          "attack": 1092,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10144,
+      "name_en": "Taroth Pipe \"Buzzer\"",
+      "notes": "PBY",
+      "rarity": 7,
+      "attack": 672,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10636,
+          "name_en": "Taroth Pipe \"Buzzer\" (MR)",
+          "notes": "PBY",
+          "rarity": 11,
+          "attack": 1050,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10145,
+      "name_en": "Taroth Pipe \"Thief\"",
+      "notes": "PBC",
+      "rarity": 7,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10637,
+          "name_en": "Taroth Pipe \"Thief\" (MR)",
+          "notes": "PBC",
+          "rarity": 11,
+          "attack": 1092,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10146,
+      "name_en": "Taroth Pipe \"Spew\"",
+      "notes": "PGC",
+      "rarity": 7,
+      "attack": 756,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10638,
+          "name_en": "Taroth Pipe \"Spew\" (MR)",
+          "notes": "PGC",
+          "rarity": 11,
+          "attack": 1134,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10147,
+      "name_en": "Taroth Pipe \"Rage\"",
+      "notes": "PBG",
+      "rarity": 7,
+      "attack": 840,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10639,
+          "name_en": "Taroth Pipe \"Rage\" (MR)",
+          "notes": "PBG",
+          "rarity": 11,
+          "attack": 1218,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10148,
+      "name_en": "Taroth Pipe \"Drifter\"",
+      "notes": "PBC",
+      "rarity": 7,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10640,
+          "name_en": "Taroth Pipe \"Drifter\" (MR)",
+          "notes": "PBC",
+          "rarity": 11,
+          "attack": 1092,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10149,
+      "name_en": "Taroth Pipe \"Stream\"",
+      "notes": "PBG",
+      "rarity": 7,
+      "attack": 672,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10641,
+          "name_en": "Taroth Pipe \"Stream\" (MR)",
+          "notes": "PBG",
+          "rarity": 11,
+          "attack": 1050,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10150,
+      "name_en": "Taroth Pipe \"Tar\"",
+      "notes": "PRY",
+      "rarity": 7,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10642,
+          "name_en": "Taroth Pipe \"Tar\" (MR)",
+          "notes": "PRY",
+          "rarity": 11,
+          "attack": 1176,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10151,
+      "name_en": "Taroth Pipe \"Myth\"",
+      "notes": "PGY",
+      "rarity": 7,
+      "attack": 630,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10643,
+          "name_en": "Taroth Pipe \"Myth\" (MR)",
+          "notes": "PGY",
+          "rarity": 11,
+          "attack": 1008,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10152,
+      "name_en": "Taroth Pipe \"Crusher\"",
+      "notes": "PRB",
+      "rarity": 7,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10644,
+          "name_en": "Taroth Pipe \"Crusher\" (MR)",
+          "notes": "PRB",
+          "rarity": 11,
+          "attack": 1176,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10153,
+      "name_en": "Taroth Pipe \"Water\"",
+      "notes": "PYO",
+      "rarity": 8,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10645,
+          "name_en": "Taroth Pipe \"Water\" (MR)",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1176,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10154,
+      "name_en": "Taroth Pipe \"Dragon\"",
+      "notes": "PYO",
+      "rarity": 8,
+      "attack": 756,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10646,
+          "name_en": "Taroth Pipe \"Dragon\" (MR)",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1218,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10155,
+      "name_en": "Taroth Pipe \"Paralysis\"",
+      "notes": "PBY",
+      "rarity": 8,
+      "attack": 840,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10647,
+          "name_en": "Taroth Pipe \"Paralysis\" (MR)",
+          "notes": "PBY",
+          "rarity": 12,
+          "attack": 1302,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10156,
+      "name_en": "Taroth Pipe \"Sleep\"",
+      "notes": "PRG",
+      "rarity": 8,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10648,
+          "name_en": "Taroth Pipe \"Sleep\" (MR)",
+          "notes": "PRG",
+          "rarity": 12,
+          "attack": 1260,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10398,
+      "name_en": "Kjárr Pipe \"Paralysis\"",
+      "notes": "PBY",
+      "rarity": 8,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10649,
+          "name_en": "Kjárr Pipe \"Paralysis\" (MR)",
+          "notes": "PBY",
+          "rarity": 12,
+          "attack": 1260,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10399,
+      "name_en": "Kjárr Pipe \"Rage\"",
+      "notes": "PBG",
+      "rarity": 8,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10650,
+          "name_en": "Kjárr Pipe \"Rage\" (MR)",
+          "notes": "PBG",
+          "rarity": 12,
+          "attack": 1260,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10400,
+      "name_en": "Kjárr Pipe \"Myth\"",
+      "notes": "PGY",
+      "rarity": 8,
+      "attack": 672,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10651,
+          "name_en": "Kjárr Pipe \"Myth\" (MR)",
+          "notes": "PGY",
+          "rarity": 12,
+          "attack": 1134,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10401,
+      "name_en": "Kjárr Pipe \"Crusher\"",
+      "notes": "PRB",
+      "rarity": 8,
+      "attack": 798,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10652,
+          "name_en": "Kjárr Pipe \"Crusher\" (MR)",
+          "notes": "PRB",
+          "rarity": 12,
+          "attack": 1260,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10402,
+      "name_en": "Kjárr Pipe \"Stream\"",
+      "notes": "PBG",
+      "rarity": 8,
+      "attack": 672,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10653,
+          "name_en": "Kjárr Pipe \"Stream\" (MR)",
+          "notes": "PBG",
+          "rarity": 12,
+          "attack": 1134,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10403,
+      "name_en": "Kjárr Pipe \"Water\"",
+      "notes": "PYO",
+      "rarity": 8,
+      "attack": 714,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10654,
+          "name_en": "Kjárr Pipe \"Water\" (MR)",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1176,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 10404,
+      "name_en": "Kjárr Pipe \"Dragon\"",
+      "notes": "PYO",
+      "rarity": 8,
+      "attack": 756,
+      "craftable": false,
+      "final": false,
+      "children": [
+        {
+          "id": 10655,
+          "name_en": "Kjárr Pipe \"Dragon\" (MR)",
+          "notes": "PYO",
+          "rarity": 12,
+          "attack": 1218,
+          "craftable": false,
+          "final": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 20046,
+      "name_en": "Safi's Hellhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20047,
+      "name_en": "Safi's Aquahorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20048,
+      "name_en": "Safi's Bolthorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20049,
+      "name_en": "Safi's Frosthorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20050,
+      "name_en": "Safi's Drakhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20051,
+      "name_en": "Safi's Bindhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20052,
+      "name_en": "Safi's Dreamhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20053,
+      "name_en": "Safi's Shatterhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    },
+    {
+      "id": 20054,
+      "name_en": "Safi's Venomhorn",
+      "notes": "PGC",
+      "rarity": 12,
+      "attack": 1134,
+      "craftable": false,
+      "final": true,
+      "children": []
+    }
+  ],
+  "children_map": {
+    "429": [
+      430
+    ],
+    "430": [
+      431,
+      444,
+      454
+    ],
+    "431": [
+      432,
+      439
+    ],
+    "432": [
+      433
+    ],
+    "433": [
+      434
+    ],
+    "434": [
+      435
+    ],
+    "435": [
+      436,
+      437
+    ],
+    "436": [
+      2419
+    ],
+    "437": [
+      438
+    ],
+    "438": [
+      2424
+    ],
+    "439": [
+      440
+    ],
+    "440": [
+      441
+    ],
+    "441": [
+      442
+    ],
+    "442": [
+      443
+    ],
+    "443": [
+      2425
+    ],
+    "444": [
+      445,
+      450
+    ],
+    "445": [
+      446
+    ],
+    "446": [
+      447
+    ],
+    "447": [
+      448
+    ],
+    "448": [
+      449
+    ],
+    "449": [
+      2429
+    ],
+    "450": [
+      451
+    ],
+    "451": [
+      452
+    ],
+    "452": [
+      453
+    ],
+    "453": [
+      2436
+    ],
+    "454": [
+      455
+    ],
+    "455": [
+      456,
+      460
+    ],
+    "456": [
+      457
+    ],
+    "457": [
+      458
+    ],
+    "458": [
+      459
+    ],
+    "459": [
+      2439
+    ],
+    "460": [
+      461
+    ],
+    "461": [
+      462
+    ],
+    "462": [
+      463
+    ],
+    "463": [
+      2445
+    ],
+    "464": [
+      465
+    ],
+    "465": [
+      466,
+      479,
+      492
+    ],
+    "466": [
+      467,
+      474
+    ],
+    "467": [
+      468
+    ],
+    "468": [
+      469
+    ],
+    "469": [
+      470,
+      472
+    ],
+    "470": [
+      471
+    ],
+    "471": [
+      2448
+    ],
+    "472": [
+      473
+    ],
+    "473": [
+      2453
+    ],
+    "474": [
+      475
+    ],
+    "475": [
+      476
+    ],
+    "476": [
+      477
+    ],
+    "477": [
+      478
+    ],
+    "478": [
+      2458
+    ],
+    "479": [
+      480,
+      485
+    ],
+    "480": [
+      481
+    ],
+    "481": [
+      482
+    ],
+    "482": [
+      483
+    ],
+    "483": [
+      484
+    ],
+    "484": [
+      2464
+    ],
+    "485": [
+      486
+    ],
+    "486": [
+      487
+    ],
+    "487": [
+      488,
+      490
+    ],
+    "488": [
+      489
+    ],
+    "489": [
+      2468,
+      2470
+    ],
+    "490": [
+      491
+    ],
+    "491": [
+      2472
+    ],
+    "492": [
+      493,
+      498
+    ],
+    "493": [
+      494
+    ],
+    "494": [
+      495
+    ],
+    "495": [
+      496
+    ],
+    "496": [
+      497
+    ],
+    "497": [
+      2474
+    ],
+    "498": [
+      499
+    ],
+    "499": [
+      500
+    ],
+    "500": [
+      501
+    ],
+    "501": [
+      502
+    ],
+    "502": [
+      2476
+    ],
+    "503": [
+      504,
+      506
+    ],
+    "504": [
+      505
+    ],
+    "505": [
+      2480
+    ],
+    "506": [
+      507
+    ],
+    "507": [
+      508
+    ],
+    "508": [
+      2483,
+      2484
+    ],
+    "509": [
+      510
+    ],
+    "510": [
+      511,
+      513
+    ],
+    "511": [
+      512
+    ],
+    "512": [
+      2485
+    ],
+    "513": [],
+    "1160": [
+      1161
+    ],
+    "1161": [
+      2486
+    ],
+    "1214": [
+      1215,
+      1216,
+      1217
+    ],
+    "1215": [
+      2487
+    ],
+    "1216": [
+      2488
+    ],
+    "1217": [
+      2489
+    ],
+    "2414": [
+      2415
+    ],
+    "2415": [
+      2416
+    ],
+    "2416": [
+      2417
+    ],
+    "2417": [
+      2418
+    ],
+    "2418": [],
+    "2419": [
+      2420
+    ],
+    "2420": [
+      2421,
+      2422
+    ],
+    "2421": [],
+    "2422": [
+      2423
+    ],
+    "2423": [],
+    "2424": [],
+    "2425": [
+      2426
+    ],
+    "2426": [
+      2427
+    ],
+    "2427": [
+      2428
+    ],
+    "2428": [],
+    "2429": [
+      2430,
+      2431
+    ],
+    "2430": [],
+    "2431": [
+      2432,
+      2434
+    ],
+    "2432": [
+      2433
+    ],
+    "2433": [],
+    "2434": [
+      2435
+    ],
+    "2435": [],
+    "2436": [
+      2437
+    ],
+    "2437": [
+      2438
+    ],
+    "2438": [],
+    "2439": [
+      2440,
+      2442
+    ],
+    "2440": [
+      2441
+    ],
+    "2441": [],
+    "2442": [
+      2443
+    ],
+    "2443": [
+      2444
+    ],
+    "2444": [],
+    "2445": [
+      2446
+    ],
+    "2446": [
+      2447
+    ],
+    "2447": [],
+    "2448": [
+      2449
+    ],
+    "2449": [
+      2450,
+      2451
+    ],
+    "2450": [],
+    "2451": [
+      2452
+    ],
+    "2452": [],
+    "2453": [
+      2454,
+      2455
+    ],
+    "2454": [],
+    "2455": [
+      2456
+    ],
+    "2456": [
+      2457
+    ],
+    "2457": [],
+    "2458": [
+      2459,
+      2460
+    ],
+    "2459": [],
+    "2460": [
+      2461,
+      2462
+    ],
+    "2461": [],
+    "2462": [
+      2463
+    ],
+    "2463": [],
+    "2464": [
+      2465,
+      2466
+    ],
+    "2465": [],
+    "2466": [
+      2467,
+      3227
+    ],
+    "2467": [],
+    "2468": [
+      2469
+    ],
+    "2469": [],
+    "2470": [
+      2471
+    ],
+    "2471": [],
+    "2472": [
+      2473
+    ],
+    "2473": [],
+    "2474": [
+      2475
+    ],
+    "2475": [],
+    "2476": [
+      2477,
+      2478
+    ],
+    "2477": [],
+    "2478": [
+      2479
+    ],
+    "2479": [],
+    "2480": [
+      2481,
+      2482
+    ],
+    "2481": [],
+    "2482": [],
+    "2483": [],
+    "2484": [],
+    "2485": [],
+    "2486": [],
+    "2487": [],
+    "2488": [],
+    "2489": [],
+    "2490": [
+      2491
+    ],
+    "2491": [],
+    "3142": [
+      3143
+    ],
+    "3143": [],
+    "3144": [],
+    "3145": [
+      3146
+    ],
+    "3146": [],
+    "3147": [],
+    "3204": [
+      3205
+    ],
+    "3205": [],
+    "3227": [],
+    "3248": [
+      3249
+    ],
+    "3249": [],
+    "10132": [
+      10624
+    ],
+    "10133": [
+      10625
+    ],
+    "10134": [
+      10626
+    ],
+    "10135": [
+      10627
+    ],
+    "10136": [
+      10628
+    ],
+    "10137": [
+      10629
+    ],
+    "10138": [
+      10630
+    ],
+    "10139": [
+      10631
+    ],
+    "10140": [
+      10632
+    ],
+    "10141": [
+      10633
+    ],
+    "10142": [
+      10634
+    ],
+    "10143": [
+      10635
+    ],
+    "10144": [
+      10636
+    ],
+    "10145": [
+      10637
+    ],
+    "10146": [
+      10638
+    ],
+    "10147": [
+      10639
+    ],
+    "10148": [
+      10640
+    ],
+    "10149": [
+      10641
+    ],
+    "10150": [
+      10642
+    ],
+    "10151": [
+      10643
+    ],
+    "10152": [
+      10644
+    ],
+    "10153": [
+      10645
+    ],
+    "10154": [
+      10646
+    ],
+    "10155": [
+      10647
+    ],
+    "10156": [
+      10648
+    ],
+    "10398": [
+      10649
+    ],
+    "10399": [
+      10650
+    ],
+    "10400": [
+      10651
+    ],
+    "10401": [
+      10652
+    ],
+    "10402": [
+      10653
+    ],
+    "10403": [
+      10654
+    ],
+    "10404": [
+      10655
+    ],
+    "10624": [],
+    "10625": [],
+    "10626": [],
+    "10627": [],
+    "10628": [],
+    "10629": [],
+    "10630": [],
+    "10631": [],
+    "10632": [],
+    "10633": [],
+    "10634": [],
+    "10635": [],
+    "10636": [],
+    "10637": [],
+    "10638": [],
+    "10639": [],
+    "10640": [],
+    "10641": [],
+    "10642": [],
+    "10643": [],
+    "10644": [],
+    "10645": [],
+    "10646": [],
+    "10647": [],
+    "10648": [],
+    "10649": [],
+    "10650": [],
+    "10651": [],
+    "10652": [],
+    "10653": [],
+    "10654": [],
+    "10655": [],
+    "20046": [],
+    "20047": [],
+    "20048": [],
+    "20049": [],
+    "20050": [],
+    "20051": [],
+    "20052": [],
+    "20053": [],
+    "20054": []
+  }
+}
