@@ -1,0 +1,56 @@
+1|Self-improvement
+2|Attack Up (S)
+3|Attack Up (L)
+4|Health Boost (S)
+5|Health Boost (L)
+6|Stamina Use Reduced (S)
+7|Stamina Use Reduced (L)
+8|Wind Pressure Negated
+9|All Wind Pressure Negated
+10|Defense Up (S)
+11|Defense Up (L)
+12|Tool Use Drain Reduced (S)
+13|Tool Use Drain Reduced (L)
+14|Health Rec. (S)
+15|Health Rec. (L)
+16|Health Rec. (S) + Antidote
+17|Health Rec. (M) + Antidote
+18|Recovery Speed (S)
+19|Recovery Speed (L)
+20|Earplugs (S)
+21|Earplugs (L)
+22|Divine Protection
+23|Scoutfly Power Up
+24|Envir. Damage Negated
+25|Stun Negated
+26|Paralysis Negated
+27|Tremors Negated
+28|Muck/Water/Deep Snow Res
+29|Fire Res Boost (S)
+30|Fire Res Boost (L)
+31|Water Res Boost (S)
+32|Water Res Boost (L)
+33|Thunder Res Boost (S)
+34|Thunder Res Boost (L)
+35|Ice Res Boost (S)
+36|Ice Res Boost (L)
+37|Dragon Res Boost (S)
+38|Dragon Res Boost (L)
+39|Elemental Attack Boost
+40|Blight Negated
+41|Sonic Waves
+42|All Melody Effects Extended
+43|Knockbacks Negated
+44|Attack and Defense Up (S)
+45|Blight Res Up
+46|Affinity Up and Health Rec. (S)
+47|All Ailments Negated
+48|Earplugs (S) / Wind Pressure Negated
+49|Abnormal Status Atk. Increased
+50|Health Recovery (M)
+51|Impact Echo Wave
+52|Echo Wave "Dragon"
+53|Max Stamina Up + Recovery
+54|Extended Health Recovery
+55|Speed Boost + Evade Window Up
+56|Elemental Effectiveness Up
