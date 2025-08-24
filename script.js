@@ -78,6 +78,7 @@ Promise.all([
 
     div.dataset.id = node.id;
     div.dataset.parent = node.parent || null;
+    div.dataset.notes = node.notes; // <-- Añade esto
 
     // Obtiene los textos de las canciones
     const songTexts = getSongTextsForNotes(node.notes);
@@ -102,7 +103,6 @@ Promise.all([
     });
 
     container.appendChild(div);
-
     return div;
   }
 
@@ -228,5 +228,58 @@ Promise.all([
     canvas.height = window.innerHeight;
     const nodes = document.querySelectorAll(".node");
     drawConnections(nodes, ctx);
+  });
+
+  // Crear la barra lateral de canciones
+  const songList = document.getElementById("song-list");
+  const songNames = songTexts.map(line => line.replace(/^\d+\|/, ""));
+  songNames.forEach((name, idx) => {
+    const li = document.createElement("li");
+    li.textContent = name;
+    li.dataset.songId = (idx + 1).toString();
+    songList.appendChild(li);
+  });
+
+  // Mapeo: para cada nodo, guarda los IDs de canciones que tiene
+  const nodeSongMap = {};
+  document.querySelectorAll(".node").forEach(node => {
+    const notes = node.dataset.notes; // <-- Usa el atributo data-notes
+    const songIds = new Set();
+    const indices = songsInHorns[notes] || [];
+    indices.forEach(idx => {
+      const line = songsLines[idx - 1] || "";
+      const match = line.match(/^(\d+)\|/);
+      if (match) songIds.add(match[1]);
+    });
+    nodeSongMap[node.dataset.id] = songIds;
+  });
+
+  // Selección múltiple de canciones
+  let selectedSongIds = new Set();
+
+  songList.addEventListener("click", e => {
+    if (e.target.tagName !== "LI") return;
+    const songId = e.target.dataset.songId;
+    if (selectedSongIds.has(songId)) {
+      selectedSongIds.delete(songId);
+      e.target.classList.remove("selected");
+    } else {
+      selectedSongIds.add(songId);
+      e.target.classList.add("selected");
+    }
+
+    // Actualiza el resaltado de las gaitas
+    document.querySelectorAll(".node").forEach(node => {
+      const nodeIds = nodeSongMap[node.dataset.id];
+      // Destaca solo si tiene todas las canciones seleccionadas
+      if (
+        selectedSongIds.size > 0 &&
+        [...selectedSongIds].every(id => nodeIds && nodeIds.has(id))
+      ) {
+        node.classList.add("highlighted");
+      } else {
+        node.classList.remove("highlighted");
+      }
+    });
   });
 });
