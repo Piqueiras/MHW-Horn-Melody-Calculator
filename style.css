@@ -88,7 +88,8 @@ body {
 
 #sidebar {
   position: fixed;
-  left: 0;
+  right: 0;      /* Cambia left: 0 por right: 0 */
+  left: auto;    /* Asegúrate de que left no interfiera */
   top: 0;
   width: 320px;
   height: 100vh;
@@ -97,7 +98,7 @@ body {
   padding: 24px 12px 12px 12px;
   overflow-y: auto;
   z-index: 100000;
-  border-right: 2px solid #444;
+  border-left: 2px solid #444; /* Cambia border-right por border-left */
 }
 
 #sidebar h2 {
