@@ -31,8 +31,14 @@ Promise.all([
   const canvas = document.getElementById("connections");
   const ctx = canvas.getContext("2d");
 
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  function resizeCanvas() {
+    const width = Math.max(container.scrollWidth, window.innerWidth);
+    const height = Math.max(container.scrollHeight, window.innerHeight);
+    canvas.width = width;
+    canvas.height = height;
+    canvas.style.width = width + "px";
+    canvas.style.height = height + "px";
+  }
 
   const spacingX = 240;
   const spacingY = 120;
@@ -188,6 +194,13 @@ Promise.all([
   }
 
   // Paso 2: Renderiza el árbol usando el tamaño calculado
+  function createTreeDivider(y) {
+    const divider = document.createElement("div");
+    divider.className = "tree-divider";
+    divider.style.top = y + "px";
+    container.appendChild(divider);
+  }
+
   function renderTree(node, depth, topY, parentId = null) {
     const subtreeSize = getSubtreeSize(node);
 
@@ -212,11 +225,16 @@ Promise.all([
 
   // Renderiza cada árbol del bosque
   let forestY = 50;
-  forest.forEach(tree => {
+  forest.forEach((tree, index) => {
     const treeSize = getSubtreeSize(tree);
     renderTree(tree, 0, forestY);
+    if (index < forest.length - 1) {
+      createTreeDivider(forestY + treeSize * spacingY + 25);
+    }
     forestY += treeSize * spacingY + 50;
   });
+
+  resizeCanvas();
 
   requestAnimationFrame(() => {
     const nodes = document.querySelectorAll(".node");
@@ -224,8 +242,7 @@ Promise.all([
   });
 
   window.addEventListener("resize", () => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    resizeCanvas();
     const nodes = document.querySelectorAll(".node");
     drawConnections(nodes, ctx);
   });

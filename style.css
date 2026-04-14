@@ -127,6 +127,16 @@ body {
   color: #fff;
 }
 
+.tree-divider {
+  position: absolute;
+  left: 20px;
+  width: calc(100% - 360px);
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  border-top: 1px dashed rgba(255, 255, 255, 0.25);
+  pointer-events: none;
+}
+
 .node.highlighted {
   box-shadow: 0 0 0 6px #ffe600, 0 0 24px #ffe60088;
   border-color: #ffe600;
