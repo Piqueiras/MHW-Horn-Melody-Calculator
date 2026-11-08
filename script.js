@@ -20,8 +20,78 @@ const STAT_ICONS = {
   attack: "600px-MHWI-Attack_Icon.png.webp",
   affinity: "600px-MHWI-Affinity_Icon.png.webp",
   defense: "600px-MHWI-Defense_Icon.png.webp",
-  elderseal: "UI-Elderseal.png"
+  elderseal: "UI-Elderseal.png",
+  sharpness: "UI-Sharpness_Icon.png"
 };
+
+// Sharpness tier colors (MHW standards)
+const SHARPNESS_COLORS = {
+  red: "#ef4444",
+  orange: "#f97316",
+  yellow: "#eab308",
+  green: "#22c55e",
+  blue: "#3b82f6",
+  white: "#f8fafc",
+  purple: "#c084fc"
+};
+
+// Return accent style for the top border of the card
+function getSharpnessAccent(node) {
+  const base = node.base_color || "green";
+  const max = node.max_color || base;
+  const baseHex = SHARPNESS_COLORS[base] || "#22c55e";
+  const maxHex = SHARPNESS_COLORS[max] || baseHex;
+
+  if (node.has_sharpness_upgrade && base !== max) {
+    const baseName = base.charAt(0).toUpperCase() + base.slice(1);
+    const maxName = max.charAt(0).toUpperCase() + max.slice(1);
+    return {
+      background: `linear-gradient(90deg, ${baseHex} 0%, ${maxHex} 100%)`,
+      glow: maxHex,
+      title: `Sharpness: ${baseName} ➔ ${maxName} (with Handicraft)`
+    };
+  }
+  const maxName = max.charAt(0).toUpperCase() + max.slice(1);
+  return {
+    background: maxHex,
+    glow: maxHex,
+    title: `Sharpness: ${maxName}`
+  };
+}
+
+// Render full horizontal sharpness gauge for the hover tooltip
+function renderSharpnessGauge(node) {
+  if (!node.sharpness_base || !node.sharpness_max) return "";
+
+  const colors = ["red", "orange", "yellow", "green", "blue", "white", "purple"];
+  let segsHtml = "";
+
+  for (let i = 0; i < 7; i++) {
+    const color = colors[i];
+    const baseHits = node.sharpness_base[i] || 0;
+    const craftHits = node.handicraft ? (node.handicraft[i] || 0) : 0;
+
+    if (baseHits > 0) {
+      const pct = (baseHits / 400) * 100;
+      segsHtml += `<div class="sharpness-seg seg-${color}" style="width: ${pct}%;"></div>`;
+    }
+    if (craftHits > 0) {
+      const pct = (craftHits / 400) * 100;
+      segsHtml += `<div class="sharpness-seg seg-${color} handicraft" style="width: ${pct}%;"></div>`;
+    }
+  }
+
+  return `
+    <div class="tooltip-sharpness-row" title="Sharpness Gauge (patterned = Handicraft extension)">
+      <img src="img/${STAT_ICONS.sharpness}" alt="Sharpness" class="sharpness-icon">
+      <div class="sharpness-gauge-container">
+        <div class="sharpness-gauge">
+          ${segsHtml}
+        </div>
+      </div>
+    </div>
+  `;
+}
 
 // Configuration for weapon elements/statuses (icon and theme colors)
 const ELEMENT_CONFIG = {
@@ -113,6 +183,8 @@ Promise.all([
   const container = document.getElementById("container");
   const canvas = document.getElementById("connections");
   const ctx = canvas.getContext("2d");
+  const sidebar = document.getElementById("sidebar");
+  const toggleSidebarBtn = document.getElementById("toggle-sidebar");
 
   // Create dictionary of song ID -> song Name
   const songNameMap = new Map();
@@ -134,8 +206,8 @@ Promise.all([
 
   // Resize canvas to cover container
   function resizeCanvas() {
-    const width = Math.max(container.scrollWidth, window.innerWidth - 330);
-    const height = Math.max(container.scrollHeight, window.innerHeight);
+    const width = Math.max(container.offsetWidth || container.scrollWidth, window.innerWidth);
+    const height = Math.max(container.offsetHeight || container.scrollHeight, window.innerHeight);
     canvas.width = width;
     canvas.height = height;
     canvas.style.width = width + "px";
@@ -177,8 +249,9 @@ Promise.all([
     const panelHeight = songPanel.offsetHeight;
 
     // Horizontal centering relative to node, clamped so it never overlaps sidebar or screen left
-    const sidebarWidth = 330;
-    const maxLeft = window.innerWidth - sidebarWidth - panelWidth - 12;
+    const isSidebarCollapsed = sidebar && sidebar.classList.contains("collapsed");
+    const currentSidebarWidth = isSidebarCollapsed ? 0 : 330;
+    const maxLeft = window.innerWidth - currentSidebarWidth - panelWidth - 12;
     let left = targetRect.left + (targetRect.width / 2) - (panelWidth / 2);
     left = Math.max(12, Math.min(left, maxLeft));
 
@@ -235,8 +308,10 @@ Promise.all([
       : "";
 
     const hasSecondary = Boolean(eldersealHtml || affinityHtml || defenseHtml);
+    const accent = getSharpnessAccent(node);
 
     div.innerHTML = `
+      <div class="node-sharpness-bar" style="background: ${accent.background}; box-shadow: 0 0 6px ${accent.glow}66;" title="${accent.title}"></div>
       <div class="name" title="${node.name_en}">${node.name_en}</div>
       <div class="notes">${notesToImages(node.notes || "")}</div>
       <div class="primary-row">
@@ -280,6 +355,8 @@ Promise.all([
            </span>`
         : "";
 
+      const sharpnessHtml = renderSharpnessGauge(node);
+
       songPanel.innerHTML = `
         <div class="tooltip-header">
           <div class="tooltip-title">${node.name_en}</div>
@@ -297,6 +374,7 @@ Promise.all([
             ${node.element ? `<span class="elem-name-label" style="font-size: 0.78rem; font-weight: 600; color: #94a3b8;">${node.element}</span>` : ''}
             ${eldersealHtml}
           </div>
+          ${sharpnessHtml}
         </div>
         <div class="tooltip-songs">
           ${songRowsHtml}
@@ -432,6 +510,20 @@ Promise.all([
   // Render all DOM nodes
   allPlacedNodes.forEach(node => createNodeElement(node));
 
+  // Calculate maximum extent of all placed nodes
+  const maxNodeX = Math.max(...allPlacedNodes.map(n => n.x)) + nodeWidth;
+  const maxNodeY = Math.max(currentLeafY, ...allPlacedNodes.map(n => n.y)) + nodeHeight;
+
+  // Ensure container has generous padding to the right so rightmost horns
+  // are never obscured by the fixed sidebar even when scrolled to the end
+  const totalWidth = maxNodeX + 420;
+  const totalHeight = maxNodeY + 120;
+
+  container.style.width = totalWidth + "px";
+  container.style.minWidth = totalWidth + "px";
+  container.style.height = totalHeight + "px";
+  container.style.minHeight = totalHeight + "px";
+
   // Initial canvas sizing and line draw
   resizeCanvas();
   requestAnimationFrame(() => {
@@ -442,6 +534,16 @@ Promise.all([
     resizeCanvas();
     drawConnections(allPlacedNodes);
   });
+
+  // Sidebar Collapse / Expand toggle
+  if (toggleSidebarBtn && sidebar) {
+    toggleSidebarBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("collapsed");
+      const isCollapsed = sidebar.classList.contains("collapsed");
+      toggleSidebarBtn.setAttribute("title", isCollapsed ? "Expand sidebar" : "Collapse sidebar");
+      toggleSidebarBtn.setAttribute("aria-label", isCollapsed ? "Expand filter sidebar" : "Collapse filter sidebar");
+    });
+  }
 
   // ------------------------------------------------------------------------
   // Sidebar Filtering & Faceted Mutual Exclusion

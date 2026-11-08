@@ -27,7 +27,9 @@ SELECT
   w.element_hidden,
   w.affinity,
   w.defense,
-  w.elderseal
+  w.elderseal,
+  w.sharpness,
+  w.sharpness_maxed
 FROM weapon w
 LEFT JOIN weapon_text wt ON wt.id = w.id AND wt.lang_id = 'en'
 WHERE w.weapon_type = 'hunting-horn'
@@ -83,6 +85,8 @@ def build_tree_rec(wid: int,
         "affinity": row.get("affinity") or 0,
         "defense": row.get("defense") or 0,
         "elderseal": row.get("elderseal"),
+        "sharpness": row.get("sharpness"),
+        "sharpness_maxed": row.get("sharpness_maxed"),
         "children": []
     }
     for child_id in children_map.get(wid, []):

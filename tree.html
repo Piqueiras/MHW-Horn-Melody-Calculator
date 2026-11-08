@@ -8,6 +8,9 @@
 </head>
 <body>
   <aside id="sidebar">
+    <button type="button" id="toggle-sidebar" class="sidebar-toggle-btn" aria-label="Collapse filter sidebar" title="Collapse sidebar">
+      <span class="toggle-icon">›</span>
+    </button>
     <div class="sidebar-header">
       <h2>Hunting Horns</h2>
       <div class="filter-actions">
@@ -87,6 +90,11 @@
     </div>
   </aside>
   <main id="container">
+    <div id="path-bar" class="path-bar" style="display: none;">
+      <span class="path-title">Upgrade Path:</span>
+      <div id="path-breadcrumbs" class="path-breadcrumbs"></div>
+      <button id="clear-path-btn" class="clear-path-btn" title="Clear upgrade path">✕</button>
+    </div>
     <canvas id="connections"></canvas>
   </main>
   <script src="script.js"></script>
