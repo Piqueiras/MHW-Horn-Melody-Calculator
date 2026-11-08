@@ -1,0 +1,562 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Self-improvement",
+    "effect1": "Movement Speed Up",
+    "effect2": "Attack Up + Deflected Attack Prevention",
+    "base_duration": 180,
+    "base_extension": 90,
+    "m1_duration": 240,
+    "m1_extension": 120
+  },
+  "2": {
+    "id": "2",
+    "name": "Attack Up (S)",
+    "effect1": "Attack Up (S)",
+    "effect2": "Attack Up (L)",
+    "base_duration": 120,
+    "base_extension": 60,
+    "m1_duration": 150,
+    "m1_extension": 90
+  },
+  "3": {
+    "id": "3",
+    "name": "Attack Up (L)",
+    "effect1": "Attack Up (L)",
+    "effect2": "Attack Up (XL)",
+    "base_duration": 90,
+    "base_extension": 30,
+    "m1_duration": 120,
+    "m1_extension": 60
+  },
+  "4": {
+    "id": "4",
+    "name": "Health Boost (S)",
+    "effect1": "Health Boost (S)",
+    "effect2": "Health Boost Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 240,
+    "m1_extension": 180
+  },
+  "5": {
+    "id": "5",
+    "name": "Health Boost (L)",
+    "effect1": "Health Boost (L)",
+    "effect2": "Health Boost Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 240,
+    "m1_extension": 180
+  },
+  "6": {
+    "id": "6",
+    "name": "Stamina Use Reduced (S)",
+    "effect1": "Stamina Use Reduced (S)",
+    "effect2": "Stamina Use Reduction Extended",
+    "base_duration": 90,
+    "base_extension": 30,
+    "m1_duration": 120,
+    "m1_extension": 60
+  },
+  "7": {
+    "id": "7",
+    "name": "Stamina Use Reduced (L)",
+    "effect1": "Stamina Use Reduced (L)",
+    "effect2": "Stamina Use Reduction Extended",
+    "base_duration": 120,
+    "base_extension": 60,
+    "m1_duration": 150,
+    "m1_extension": 90
+  },
+  "8": {
+    "id": "8",
+    "name": "Wind Pressure Negated",
+    "effect1": "Wind Pressure Negated",
+    "effect2": "Wind Pressure Negation Extended",
+    "base_duration": 180,
+    "base_extension": 90,
+    "m1_duration": 240,
+    "m1_extension": 120
+  },
+  "9": {
+    "id": "9",
+    "name": "All Wind Pressure Negated",
+    "effect1": "All Wind Pressure Negated",
+    "effect2": "All Wind Pressure Negation Extended",
+    "base_duration": 180,
+    "base_extension": 90,
+    "m1_duration": 240,
+    "m1_extension": 120
+  },
+  "10": {
+    "id": "10",
+    "name": "Defense Up (S)",
+    "effect1": "Defense Up (S)",
+    "effect2": "Defense Up (L)",
+    "base_duration": 120,
+    "base_extension": 60,
+    "m1_duration": 150,
+    "m1_extension": 90
+  },
+  "11": {
+    "id": "11",
+    "name": "Defense Up (L)",
+    "effect1": "Defense Up (L)",
+    "effect2": "Defense Up (XL)",
+    "base_duration": 90,
+    "base_extension": 60,
+    "m1_duration": 120,
+    "m1_extension": 90
+  },
+  "12": {
+    "id": "12",
+    "name": "Tool Use Drain Reduced (S)",
+    "effect1": "Tool Use Drain Reduced (S)",
+    "effect2": "Tool Use Drain Reduction Extended",
+    "base_duration": 30,
+    "base_extension": 30,
+    "m1_duration": 60,
+    "m1_extension": 60
+  },
+  "13": {
+    "id": "13",
+    "name": "Tool Use Drain Reduced (L)",
+    "effect1": "Tool Use Drain Reduced (L)",
+    "effect2": "Tool Use Drain Reduction Extended",
+    "base_duration": 60,
+    "base_extension": 60,
+    "m1_duration": 90,
+    "m1_extension": 90
+  },
+  "14": {
+    "id": "14",
+    "name": "Health Rec. (S)",
+    "effect1": "Health Rec. (S)",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "15": {
+    "id": "15",
+    "name": "Health Rec. (L)",
+    "effect1": "Health Rec. (L)",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "16": {
+    "id": "16",
+    "name": "Health Rec. (S) + Antidote",
+    "effect1": "Health Rec. (S) + Antidote",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "17": {
+    "id": "17",
+    "name": "Health Rec. (M) + Antidote",
+    "effect1": "Health Rec. (M) + Antidote",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "18": {
+    "id": "18",
+    "name": "Recovery Speed (S)",
+    "effect1": "Recovery Speed (S)",
+    "effect2": "Recovery Speed Extended",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 150
+  },
+  "19": {
+    "id": "19",
+    "name": "Recovery Speed (L)",
+    "effect1": "Recovery Speed (L)",
+    "effect2": "Recovery Speed Extended",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 150
+  },
+  "20": {
+    "id": "20",
+    "name": "Earplugs (S)",
+    "effect1": "Earplugs (S)",
+    "effect2": "Earplugs (S) Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 210,
+    "m1_extension": 150
+  },
+  "21": {
+    "id": "21",
+    "name": "Earplugs (L)",
+    "effect1": "Earplugs (L)",
+    "effect2": "Earplugs (L) Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 210,
+    "m1_extension": 150
+  },
+  "22": {
+    "id": "22",
+    "name": "Divine Protection",
+    "effect1": "Divine Protection",
+    "effect2": "Divine Protection Extended",
+    "base_duration": 120,
+    "base_extension": 90,
+    "m1_duration": 150,
+    "m1_extension": 120
+  },
+  "23": {
+    "id": "23",
+    "name": "Scoutfly Power Up",
+    "effect1": "Scoutfly Level +1",
+    "effect2": "Scoutfly Level +1 Extended",
+    "base_duration": 180,
+    "base_extension": 180,
+    "m1_duration": 240,
+    "m1_extension": 240
+  },
+  "24": {
+    "id": "24",
+    "name": "Envir. Damage Negated",
+    "effect1": "Envir. Damage Negated",
+    "effect2": "Envir. Damage Negation Extended",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "25": {
+    "id": "25",
+    "name": "Stun Negated",
+    "effect1": "Stun Negated",
+    "effect2": "Stun Negation Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 210,
+    "m1_extension": 180
+  },
+  "26": {
+    "id": "26",
+    "name": "Paralysis Negated",
+    "effect1": "Paralysis Negated",
+    "effect2": "Paralysis Negation Extended",
+    "base_duration": 180,
+    "base_extension": 120,
+    "m1_duration": 210,
+    "m1_extension": 180
+  },
+  "27": {
+    "id": "27",
+    "name": "Tremors Negated",
+    "effect1": "Tremors Negated",
+    "effect2": "Tremor Negation Extended",
+    "base_duration": 180,
+    "base_extension": 180,
+    "m1_duration": 210,
+    "m1_extension": 210
+  },
+  "28": {
+    "id": "28",
+    "name": "Muck/Water/Deep Snow Res",
+    "effect1": "Muck/Water/Deep Snow Res",
+    "effect2": "Muck/Water/Deep Snow Res Extended",
+    "base_duration": 180,
+    "base_extension": 180,
+    "m1_duration": 240,
+    "m1_extension": 240
+  },
+  "29": {
+    "id": "29",
+    "name": "Fire Res Boost (S)",
+    "effect1": "Fire Res Boost (S)",
+    "effect2": "Fire Res Boost (L)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "30": {
+    "id": "30",
+    "name": "Fire Res Boost (L)",
+    "effect1": "Fire Res Boost (L)",
+    "effect2": "Fire Res Boost (XL)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "31": {
+    "id": "31",
+    "name": "Water Res Boost (S)",
+    "effect1": "Water Res Boost (S)",
+    "effect2": "Water Res Boost (L)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "32": {
+    "id": "32",
+    "name": "Water Res Boost (L)",
+    "effect1": "Water Res Boost (L)",
+    "effect2": "Water Res Boost (XL)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "33": {
+    "id": "33",
+    "name": "Thunder Res Boost (S)",
+    "effect1": "Thunder Res Boost (S)",
+    "effect2": "Thunder Res Boost (L)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "34": {
+    "id": "34",
+    "name": "Thunder Res Boost (L)",
+    "effect1": "Thunder Res Boost (L)",
+    "effect2": "Thunder Res Boost (XL)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "35": {
+    "id": "35",
+    "name": "Ice Res Boost (S)",
+    "effect1": "Ice Res Boost (S)",
+    "effect2": "Ice Res Boost (L)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "36": {
+    "id": "36",
+    "name": "Ice Res Boost (L)",
+    "effect1": "Ice Res Boost (L)",
+    "effect2": "Ice Res Boost (XL)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "37": {
+    "id": "37",
+    "name": "Dragon Res Boost (S)",
+    "effect1": "Dragon Res Boost (S)",
+    "effect2": "Dragon Res Boost (L)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "38": {
+    "id": "38",
+    "name": "Dragon Res Boost (L)",
+    "effect1": "Dragon Res Boost (L)",
+    "effect2": "Dragon Res Boost (XL)",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 180,
+    "m1_extension": 180
+  },
+  "39": {
+    "id": "39",
+    "name": "Elemental Attack Boost",
+    "effect1": "Elemental Attack Boost (S)",
+    "effect2": "Elemental Attack Boost (L)",
+    "base_duration": 120,
+    "base_extension": 90,
+    "m1_duration": 150,
+    "m1_extension": 120
+  },
+  "40": {
+    "id": "40",
+    "name": "Blight Negated",
+    "effect1": "Blight Negated",
+    "effect2": "Blight Negation Extended",
+    "base_duration": 120,
+    "base_extension": 120,
+    "m1_duration": 150,
+    "m1_extension": 150
+  },
+  "41": {
+    "id": "41",
+    "name": "Sonic Waves",
+    "effect1": "Sonic Waves",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "42": {
+    "id": "42",
+    "name": "All Melody Effects Extended",
+    "effect1": "All Melody Effects Extended",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "43": {
+    "id": "43",
+    "name": "Knockbacks Negated",
+    "effect1": "Knockbacks Negated",
+    "effect2": "Knockback Negation Extended",
+    "base_duration": 45,
+    "base_extension": 30,
+    "m1_duration": 60,
+    "m1_extension": 45
+  },
+  "44": {
+    "id": "44",
+    "name": "Attack and Defense Up (S)",
+    "effect1": "Attack and Defense Up (S)",
+    "effect2": "Attack Up (L) / Defense Up (L)",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "45": {
+    "id": "45",
+    "name": "Blight Res Up",
+    "effect1": "Blight Res Up (S)",
+    "effect2": "Blight Res Up (L)",
+    "base_duration": 90,
+    "base_extension": 120,
+    "m1_duration": 120,
+    "m1_extension": 150
+  },
+  "46": {
+    "id": "46",
+    "name": "Affinity Up and Health Rec. (S)",
+    "effect1": "Affinity Up (S) / Health Rec. (S)",
+    "effect2": "Affinity Up (L) / Health Rec. (S)",
+    "base_duration": 120,
+    "base_extension": 60,
+    "m1_duration": 150,
+    "m1_extension": 90
+  },
+  "47": {
+    "id": "47",
+    "name": "All Ailments Negated",
+    "effect1": "All Ailments Negated",
+    "effect2": "Ailment Negation Extended",
+    "base_duration": 120,
+    "base_extension": 60,
+    "m1_duration": 150,
+    "m1_extension": 90
+  },
+  "48": {
+    "id": "48",
+    "name": "Earplugs (S) / Wind Pressure Negated",
+    "effect1": "Earplugs (S) / Wind Pressure Negated",
+    "effect2": "Earplugs (S) / Wind Pressure Negation Extended",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "49": {
+    "id": "49",
+    "name": "Abnormal Status Atk. Increased",
+    "effect1": "Abnormal Status Atk. Up (S)",
+    "effect2": "Abnormal Status Atk. Up (L)",
+    "base_duration": 90,
+    "base_extension": 60,
+    "m1_duration": 120,
+    "m1_extension": 90
+  },
+  "50": {
+    "id": "50",
+    "name": "Health Recovery (M)",
+    "effect1": "Health Recovery (M)",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "51": {
+    "id": "51",
+    "name": "Impact Echo Wave",
+    "effect1": "Impact Echo Wave",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "52": {
+    "id": "52",
+    "name": "Echo Wave \"Dragon\"",
+    "effect1": "Echo Wave \"Dragon\"",
+    "effect2": "N/A",
+    "base_duration": null,
+    "base_extension": null,
+    "m1_duration": null,
+    "m1_extension": null
+  },
+  "53": {
+    "id": "53",
+    "name": "Max Stamina Up + Recovery",
+    "effect1": "Max Stamina Up + Recovery",
+    "effect2": "N/A",
+    "base_duration": 180,
+    "base_extension": null,
+    "m1_duration": 240,
+    "m1_extension": null
+  },
+  "54": {
+    "id": "54",
+    "name": "Extended Health Recovery",
+    "effect1": "Extended Health Recovery",
+    "effect2": "N/A",
+    "base_duration": 60,
+    "base_extension": null,
+    "m1_duration": 90,
+    "m1_extension": null
+  },
+  "55": {
+    "id": "55",
+    "name": "Speed Boost + Evade Window Up",
+    "effect1": "Speed Boost + Evade Window Up",
+    "effect2": "N/A",
+    "base_duration": 90,
+    "base_extension": null,
+    "m1_duration": 180,
+    "m1_extension": null
+  },
+  "56": {
+    "id": "56",
+    "name": "Elemental Effectiveness Up",
+    "effect1": "Elemental Effectiveness Up",
+    "effect2": "N/A",
+    "base_duration": 180,
+    "base_extension": null,
+    "m1_duration": 240,
+    "m1_extension": null
+  }
+}

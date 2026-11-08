@@ -98,7 +98,13 @@
                                               "attack": 1092,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Paralysis",
+                                              "element_attack": 360,
+                                              "element_hidden": true,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             },
                                             {
                                               "id": 2422,
@@ -117,15 +123,45 @@
                                                   "attack": 1134,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Poison",
+                                                  "element_attack": 240,
+                                                  "element_hidden": false,
+                                                  "affinity": 25,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Poison",
+                                              "element_attack": 210,
+                                              "element_hidden": false,
+                                              "affinity": 20,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Paralysis",
+                                          "element_attack": 330,
+                                          "element_hidden": true,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Paralysis",
+                                      "element_attack": 300,
+                                      "element_hidden": true,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Paralysis",
+                                  "element_attack": 270,
+                                  "element_hidden": true,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 },
                                 {
                                   "id": 437,
@@ -153,19 +189,61 @@
                                           "attack": 1218,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Dragon",
+                                          "element_attack": 210,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": "high"
                                         }
-                                      ]
+                                      ],
+                                      "element": "Dragon",
+                                      "element_attack": 150,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": "high"
                                     }
-                                  ]
+                                  ],
+                                  "element": "Dragon",
+                                  "element_attack": 120,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": "high"
                                 }
-                              ]
+                              ],
+                              "element": "Paralysis",
+                              "element_attack": 240,
+                              "element_hidden": true,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Paralysis",
+                          "element_attack": 210,
+                          "element_hidden": true,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": null,
+                      "element_attack": null,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": null,
+                  "element_attack": null,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 },
                 {
                   "id": 439,
@@ -247,25 +325,85 @@
                                                   "attack": 1092,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Thunder",
+                                                  "element_attack": 450,
+                                                  "element_hidden": false,
+                                                  "affinity": 0,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Thunder",
+                                              "element_attack": 330,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Thunder",
+                                          "element_attack": 300,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Thunder",
+                                      "element_attack": 270,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Thunder",
+                                  "element_attack": 240,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Thunder",
+                              "element_attack": 210,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Thunder",
+                          "element_attack": 180,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Thunder",
+                      "element_attack": 150,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Thunder",
+                  "element_attack": 120,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": null,
+              "element_attack": null,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             },
             {
               "id": 444,
@@ -338,7 +476,13 @@
                                           "attack": 1092,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Sleep",
+                                          "element_attack": 420,
+                                          "element_hidden": true,
+                                          "affinity": 25,
+                                          "defense": 0,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2431,
@@ -366,9 +510,21 @@
                                                   "attack": 1176,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Blast",
+                                                  "element_attack": 330,
+                                                  "element_hidden": true,
+                                                  "affinity": -20,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Blast",
+                                              "element_attack": 300,
+                                              "element_hidden": true,
+                                              "affinity": -20,
+                                              "defense": 0,
+                                              "elderseal": null
                                             },
                                             {
                                               "id": 2434,
@@ -387,23 +543,77 @@
                                                   "attack": 1218,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Sleep",
+                                                  "element_attack": 270,
+                                                  "element_hidden": true,
+                                                  "affinity": -30,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Sleep",
+                                              "element_attack": 210,
+                                              "element_hidden": true,
+                                              "affinity": -30,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Blast",
+                                          "element_attack": 270,
+                                          "element_hidden": true,
+                                          "affinity": -20,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Sleep",
+                                      "element_attack": 390,
+                                      "element_hidden": true,
+                                      "affinity": 25,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Sleep",
+                                  "element_attack": 360,
+                                  "element_hidden": true,
+                                  "affinity": 25,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Sleep",
+                              "element_attack": 300,
+                              "element_hidden": true,
+                              "affinity": 25,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Sleep",
+                          "element_attack": 240,
+                          "element_hidden": true,
+                          "affinity": 25,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": null,
+                      "element_attack": null,
+                      "element_hidden": false,
+                      "affinity": 15,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": null,
+                  "element_attack": null,
+                  "element_hidden": false,
+                  "affinity": 15,
+                  "defense": 0,
+                  "elderseal": null
                 },
                 {
                   "id": 450,
@@ -467,21 +677,69 @@
                                           "attack": 1134,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Fire",
+                                          "element_attack": 420,
+                                          "element_hidden": false,
+                                          "affinity": 25,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Fire",
+                                      "element_attack": 300,
+                                      "element_hidden": false,
+                                      "affinity": 25,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Fire",
+                                  "element_attack": 270,
+                                  "element_hidden": false,
+                                  "affinity": 25,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Fire",
+                              "element_attack": 240,
+                              "element_hidden": false,
+                              "affinity": 25,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Fire",
+                          "element_attack": 210,
+                          "element_hidden": false,
+                          "affinity": 25,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Fire",
+                      "element_attack": 180,
+                      "element_hidden": false,
+                      "affinity": 15,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Fire",
+                  "element_attack": 150,
+                  "element_hidden": false,
+                  "affinity": 15,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": null,
+              "element_attack": null,
+              "element_hidden": false,
+              "affinity": 15,
+              "defense": 0,
+              "elderseal": null
             },
             {
               "id": 454,
@@ -563,9 +821,21 @@
                                               "attack": 1008,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Water",
+                                              "element_attack": 540,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Water",
+                                          "element_attack": 450,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2442,
@@ -593,21 +863,69 @@
                                                   "attack": 1008,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Poison",
+                                                  "element_attack": 600,
+                                                  "element_hidden": true,
+                                                  "affinity": 20,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Poison",
+                                              "element_attack": 540,
+                                              "element_hidden": true,
+                                              "affinity": 15,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Poison",
+                                          "element_attack": 480,
+                                          "element_hidden": true,
+                                          "affinity": 10,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Water",
+                                      "element_attack": 360,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Water",
+                                  "element_attack": 270,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Water",
+                              "element_attack": 240,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Water",
+                          "element_attack": 210,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Water",
+                      "element_attack": 180,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     },
                     {
                       "id": 460,
@@ -671,27 +989,93 @@
                                               "attack": 1008,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Ice",
+                                              "element_attack": 600,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Ice",
+                                          "element_attack": 570,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Ice",
+                                      "element_attack": 390,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Ice",
+                                  "element_attack": 360,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Ice",
+                              "element_attack": 330,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Ice",
+                          "element_attack": 300,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Ice",
+                      "element_attack": 240,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Water",
+                  "element_attack": 150,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Water",
+              "element_attack": 120,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": null,
+          "element_attack": null,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": null,
+      "element_attack": null,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 464,
@@ -791,7 +1175,13 @@
                                               "attack": 1176,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Ice",
+                                              "element_attack": 330,
+                                              "element_hidden": true,
+                                              "affinity": 0,
+                                              "defense": 35,
+                                              "elderseal": null
                                             },
                                             {
                                               "id": 2451,
@@ -810,17 +1200,53 @@
                                                   "attack": 1134,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Ice",
+                                                  "element_attack": 270,
+                                                  "element_hidden": false,
+                                                  "affinity": 0,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Ice",
+                                              "element_attack": 240,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Ice",
+                                          "element_attack": 300,
+                                          "element_hidden": true,
+                                          "affinity": 0,
+                                          "defense": 35,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Ice",
+                                      "element_attack": 270,
+                                      "element_hidden": true,
+                                      "affinity": 0,
+                                      "defense": 35,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Ice",
+                                  "element_attack": 240,
+                                  "element_hidden": true,
+                                  "affinity": 0,
+                                  "defense": 10,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Ice",
+                              "element_attack": 210,
+                              "element_hidden": true,
+                              "affinity": 0,
+                              "defense": 10,
+                              "elderseal": null
                             },
                             {
                               "id": 472,
@@ -857,7 +1283,13 @@
                                           "attack": 1008,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Blast",
+                                          "element_attack": 270,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2455,
@@ -885,23 +1317,77 @@
                                                   "attack": 1092,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Fire",
+                                                  "element_attack": 330,
+                                                  "element_hidden": false,
+                                                  "affinity": 0,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Fire",
+                                              "element_attack": 270,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Fire",
+                                          "element_attack": 240,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Blast",
+                                      "element_attack": 210,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Blast",
+                                  "element_attack": 150,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Blast",
+                              "element_attack": 120,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Ice",
+                          "element_attack": 180,
+                          "element_hidden": true,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": null,
+                      "element_attack": null,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": null,
+                  "element_attack": null,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 },
                 {
                   "id": 474,
@@ -965,7 +1451,13 @@
                                           "attack": 1134,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Fire",
+                                          "element_attack": 600,
+                                          "element_hidden": false,
+                                          "affinity": -20,
+                                          "defense": 0,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2460,
@@ -984,7 +1476,13 @@
                                               "attack": 1050,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Thunder",
+                                              "element_attack": 330,
+                                              "element_hidden": false,
+                                              "affinity": 20,
+                                              "defense": 0,
+                                              "elderseal": null
                                             },
                                             {
                                               "id": 2462,
@@ -1003,25 +1501,85 @@
                                                   "attack": 1218,
                                                   "craftable": false,
                                                   "final": true,
-                                                  "children": []
+                                                  "children": [],
+                                                  "element": "Paralysis",
+                                                  "element_attack": 330,
+                                                  "element_hidden": true,
+                                                  "affinity": 0,
+                                                  "defense": 0,
+                                                  "elderseal": null
                                                 }
-                                              ]
+                                              ],
+                                              "element": "Paralysis",
+                                              "element_attack": 300,
+                                              "element_hidden": true,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Thunder",
+                                          "element_attack": 270,
+                                          "element_hidden": false,
+                                          "affinity": 10,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Fire",
+                                      "element_attack": 480,
+                                      "element_hidden": false,
+                                      "affinity": -20,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Fire",
+                                  "element_attack": 450,
+                                  "element_hidden": false,
+                                  "affinity": -20,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Fire",
+                              "element_attack": 330,
+                              "element_hidden": false,
+                              "affinity": -20,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Fire",
+                          "element_attack": 270,
+                          "element_hidden": false,
+                          "affinity": -20,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Fire",
+                      "element_attack": 240,
+                      "element_hidden": false,
+                      "affinity": -20,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Fire",
+                  "element_attack": 210,
+                  "element_hidden": false,
+                  "affinity": -20,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": null,
+              "element_attack": null,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             },
             {
               "id": 479,
@@ -1094,7 +1652,13 @@
                                           "attack": 1008,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Poison",
+                                          "element_attack": 660,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2466,
@@ -1113,7 +1677,13 @@
                                               "attack": 1050,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Ice",
+                                              "element_attack": 360,
+                                              "element_hidden": false,
+                                              "affinity": 30,
+                                              "defense": 0,
+                                              "elderseal": null
                                             },
                                             {
                                               "id": 3227,
@@ -1123,21 +1693,69 @@
                                               "attack": 1134,
                                               "craftable": true,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Ice",
+                                              "element_attack": 540,
+                                              "element_hidden": false,
+                                              "affinity": 15,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Ice",
+                                          "element_attack": 270,
+                                          "element_hidden": false,
+                                          "affinity": 20,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Poison",
+                                      "element_attack": 600,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Poison",
+                                  "element_attack": 540,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Poison",
+                              "element_attack": 480,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Poison",
+                          "element_attack": 420,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Poison",
+                      "element_attack": 360,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Poison",
+                  "element_attack": 300,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 },
                 {
                   "id": 485,
@@ -1201,9 +1819,21 @@
                                           "attack": 1050,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Water",
+                                          "element_attack": 690,
+                                          "element_hidden": true,
+                                          "affinity": 10,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Water",
+                                      "element_attack": 630,
+                                      "element_hidden": true,
+                                      "affinity": 10,
+                                      "defense": 0,
+                                      "elderseal": null
                                     },
                                     {
                                       "id": 2470,
@@ -1222,13 +1852,37 @@
                                           "attack": 1008,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Sleep",
+                                          "element_attack": 450,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Sleep",
+                                      "element_attack": 390,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Water",
+                                  "element_attack": 570,
+                                  "element_hidden": true,
+                                  "affinity": 10,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Water",
+                              "element_attack": 480,
+                              "element_hidden": true,
+                              "affinity": 10,
+                              "defense": 0,
+                              "elderseal": null
                             },
                             {
                               "id": 490,
@@ -1265,21 +1919,69 @@
                                           "attack": 1092,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Blast",
+                                          "element_attack": 300,
+                                          "element_hidden": false,
+                                          "affinity": -10,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Blast",
+                                      "element_attack": 240,
+                                      "element_hidden": false,
+                                      "affinity": -10,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Blast",
+                                  "element_attack": 210,
+                                  "element_hidden": false,
+                                  "affinity": -10,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Blast",
+                              "element_attack": 180,
+                              "element_hidden": false,
+                              "affinity": -10,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Water",
+                          "element_attack": 420,
+                          "element_hidden": true,
+                          "affinity": 10,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": null,
+                      "element_attack": null,
+                      "element_hidden": false,
+                      "affinity": 10,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": null,
+                  "element_attack": null,
+                  "element_hidden": false,
+                  "affinity": 10,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Poison",
+              "element_attack": 240,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             },
             {
               "id": 492,
@@ -1352,19 +2054,61 @@
                                           "attack": 1092,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Paralysis",
+                                          "element_attack": 420,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Paralysis",
+                                      "element_attack": 360,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 0,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Paralysis",
+                                  "element_attack": 300,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 0,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Paralysis",
+                              "element_attack": 270,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 0,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Paralysis",
+                          "element_attack": 240,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 0,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Paralysis",
+                      "element_attack": 180,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Paralysis",
+                  "element_attack": 150,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 },
                 {
                   "id": 498,
@@ -1428,7 +2172,13 @@
                                           "attack": 1050,
                                           "craftable": false,
                                           "final": true,
-                                          "children": []
+                                          "children": [],
+                                          "element": "Sleep",
+                                          "element_attack": 330,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 35,
+                                          "elderseal": null
                                         },
                                         {
                                           "id": 2478,
@@ -1447,27 +2197,93 @@
                                               "attack": 1050,
                                               "craftable": false,
                                               "final": true,
-                                              "children": []
+                                              "children": [],
+                                              "element": "Blast",
+                                              "element_attack": 510,
+                                              "element_hidden": false,
+                                              "affinity": 0,
+                                              "defense": 0,
+                                              "elderseal": null
                                             }
-                                          ]
+                                          ],
+                                          "element": "Blast",
+                                          "element_attack": 300,
+                                          "element_hidden": false,
+                                          "affinity": 0,
+                                          "defense": 0,
+                                          "elderseal": null
                                         }
-                                      ]
+                                      ],
+                                      "element": "Sleep",
+                                      "element_attack": 300,
+                                      "element_hidden": false,
+                                      "affinity": 0,
+                                      "defense": 35,
+                                      "elderseal": null
                                     }
-                                  ]
+                                  ],
+                                  "element": "Sleep",
+                                  "element_attack": 270,
+                                  "element_hidden": false,
+                                  "affinity": 0,
+                                  "defense": 20,
+                                  "elderseal": null
                                 }
-                              ]
+                              ],
+                              "element": "Sleep",
+                              "element_attack": 240,
+                              "element_hidden": false,
+                              "affinity": 0,
+                              "defense": 20,
+                              "elderseal": null
                             }
-                          ]
+                          ],
+                          "element": "Sleep",
+                          "element_attack": 210,
+                          "element_hidden": false,
+                          "affinity": 0,
+                          "defense": 20,
+                          "elderseal": null
                         }
-                      ]
+                      ],
+                      "element": "Sleep",
+                      "element_attack": 180,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 15,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Sleep",
+                  "element_attack": 150,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 15,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Paralysis",
+              "element_attack": 120,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": null,
+          "element_attack": null,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": null,
+      "element_attack": null,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 503,
@@ -1513,7 +2329,13 @@
                       "attack": 1008,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Dragon",
+                      "element_attack": 720,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": "average"
                     },
                     {
                       "id": 2482,
@@ -1523,13 +2345,37 @@
                       "attack": 1176,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Dragon",
+                      "element_attack": 510,
+                      "element_hidden": true,
+                      "affinity": 0,
+                      "defense": 30,
+                      "elderseal": "high"
                     }
-                  ]
+                  ],
+                  "element": "Dragon",
+                  "element_attack": 570,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": "average"
                 }
-              ]
+              ],
+              "element": "Dragon",
+              "element_attack": 420,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": "low"
             }
-          ]
+          ],
+          "element": "Dragon",
+          "element_attack": 360,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": "low"
         },
         {
           "id": 506,
@@ -1566,7 +2412,13 @@
                       "attack": 1008,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Thunder",
+                      "element_attack": 660,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     },
                     {
                       "id": 2484,
@@ -1576,15 +2428,45 @@
                       "attack": 1134,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Water",
+                      "element_attack": 450,
+                      "element_hidden": false,
+                      "affinity": 10,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Thunder",
+                  "element_attack": 540,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Thunder",
+              "element_attack": 480,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": "Thunder",
+          "element_attack": 390,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 300,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": "low"
     },
     {
       "id": 509,
@@ -1630,11 +2512,29 @@
                       "attack": 1092,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Blast",
+                      "element_attack": 420,
+                      "element_hidden": false,
+                      "affinity": 10,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Blast",
+                  "element_attack": 390,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Blast",
+              "element_attack": 330,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             },
             {
               "id": 513,
@@ -1644,11 +2544,29 @@
               "attack": 714,
               "craftable": false,
               "final": true,
-              "children": []
+              "children": [],
+              "element": "Dragon",
+              "element_attack": 180,
+              "element_hidden": false,
+              "affinity": 15,
+              "defense": 0,
+              "elderseal": "low"
             }
-          ]
+          ],
+          "element": "Dragon",
+          "element_attack": 150,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": "low"
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 120,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": "low"
     },
     {
       "id": 1160,
@@ -1676,11 +2594,29 @@
               "attack": 1176,
               "craftable": false,
               "final": true,
-              "children": []
+              "children": [],
+              "element": "Dragon",
+              "element_attack": 330,
+              "element_hidden": false,
+              "affinity": -30,
+              "defense": 0,
+              "elderseal": "high"
             }
-          ]
+          ],
+          "element": "Dragon",
+          "element_attack": 240,
+          "element_hidden": false,
+          "affinity": -30,
+          "defense": 0,
+          "elderseal": "high"
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 180,
+      "element_hidden": false,
+      "affinity": -30,
+      "defense": 0,
+      "elderseal": "high"
     },
     {
       "id": 1214,
@@ -1708,9 +2644,21 @@
               "attack": 1050,
               "craftable": false,
               "final": true,
-              "children": []
+              "children": [],
+              "element": "Blast",
+              "element_attack": 270,
+              "element_hidden": false,
+              "affinity": 20,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": "Blast",
+          "element_attack": 180,
+          "element_hidden": false,
+          "affinity": 20,
+          "defense": 0,
+          "elderseal": null
         },
         {
           "id": 1216,
@@ -1729,9 +2677,21 @@
               "attack": 1134,
               "craftable": false,
               "final": true,
-              "children": []
+              "children": [],
+              "element": "Blast",
+              "element_attack": 210,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": "Blast",
+          "element_attack": 150,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": null
         },
         {
           "id": 1217,
@@ -1750,11 +2710,29 @@
               "attack": 1050,
               "craftable": false,
               "final": true,
-              "children": []
+              "children": [],
+              "element": "Blast",
+              "element_attack": 330,
+              "element_hidden": false,
+              "affinity": 10,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": "Blast",
+          "element_attack": 240,
+          "element_hidden": false,
+          "affinity": 10,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": "Blast",
+      "element_attack": 150,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 2414,
@@ -1800,15 +2778,45 @@
                       "attack": 924,
                       "craftable": false,
                       "final": true,
-                      "children": []
+                      "children": [],
+                      "element": "Blast",
+                      "element_attack": 300,
+                      "element_hidden": false,
+                      "affinity": 0,
+                      "defense": 0,
+                      "elderseal": null
                     }
-                  ]
+                  ],
+                  "element": "Blast",
+                  "element_attack": 270,
+                  "element_hidden": false,
+                  "affinity": 0,
+                  "defense": 0,
+                  "elderseal": null
                 }
-              ]
+              ],
+              "element": "Blast",
+              "element_attack": 240,
+              "element_hidden": false,
+              "affinity": 0,
+              "defense": 0,
+              "elderseal": null
             }
-          ]
+          ],
+          "element": "Blast",
+          "element_attack": 210,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": "Blast",
+      "element_attack": 180,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 3142,
@@ -1827,9 +2835,21 @@
           "attack": 1302,
           "craftable": false,
           "final": true,
-          "children": []
+          "children": [],
+          "element": "Thunder",
+          "element_attack": 120,
+          "element_hidden": false,
+          "affinity": -15,
+          "defense": 0,
+          "elderseal": null
         }
-      ]
+      ],
+      "element": "Thunder",
+      "element_attack": 90,
+      "element_hidden": false,
+      "affinity": -15,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 3144,
@@ -1839,7 +2859,13 @@
       "attack": 1176,
       "craftable": true,
       "final": true,
-      "children": []
+      "children": [],
+      "element": "Thunder",
+      "element_attack": 300,
+      "element_hidden": false,
+      "affinity": 15,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 3145,
@@ -1858,9 +2884,21 @@
           "attack": 1134,
           "craftable": false,
           "final": true,
-          "children": []
+          "children": [],
+          "element": "Dragon",
+          "element_attack": 360,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": "average"
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 270,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": "average"
     },
     {
       "id": 3147,
@@ -1870,7 +2908,13 @@
       "attack": 1260,
       "craftable": true,
       "final": true,
-      "children": []
+      "children": [],
+      "element": "Blast",
+      "element_attack": 270,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": null
     },
     {
       "id": 3204,
@@ -1889,9 +2933,21 @@
           "attack": 1176,
           "craftable": false,
           "final": true,
-          "children": []
+          "children": [],
+          "element": "Dragon",
+          "element_attack": 780,
+          "element_hidden": false,
+          "affinity": 0,
+          "defense": 0,
+          "elderseal": "low"
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 630,
+      "element_hidden": false,
+      "affinity": 0,
+      "defense": 0,
+      "elderseal": "low"
     },
     {
       "id": 3248,
@@ -1910,9 +2966,21 @@
           "attack": 1470,
           "craftable": false,
           "final": true,
-          "children": []
+          "children": [],
+          "element": "Dragon",
+          "element_attack": 150,
+          "element_hidden": false,
+          "affinity": -20,
+          "defense": 0,
+          "elderseal": "high"
         }
-      ]
+      ],
+      "element": "Dragon",
+      "element_attack": 90,
+      "element_hidden": false,
+      "affinity": -40,
+      "defense": 0,
+      "elderseal": "high"
     }
   ],
   "children_map": {

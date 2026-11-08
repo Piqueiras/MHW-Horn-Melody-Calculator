@@ -6,9 +6,11 @@ Imprime TODOS los árboles (incluye árboles de 1 nodo) y exporta JSON.
 
 import sqlite3
 import json
+from pathlib import Path
 from typing import Dict, List, Any, Set
 
-DB_PATH = "mhw.db"   # <- fichero correcto
+BASE_DIR = Path(__file__).resolve().parent.parent
+DB_PATH = BASE_DIR / "db" / "mhw.db"
 
 Q_FETCH_HORNS = """
 SELECT
@@ -19,7 +21,13 @@ SELECT
   w.rarity,
   w.attack,
   w.craftable,
-  w.final
+  w.final,
+  w.element1,
+  w.element1_attack,
+  w.element_hidden,
+  w.affinity,
+  w.defense,
+  w.elderseal
 FROM weapon w
 LEFT JOIN weapon_text wt ON wt.id = w.id AND wt.lang_id = 'en'
 WHERE w.weapon_type = 'hunting-horn'
@@ -69,6 +77,12 @@ def build_tree_rec(wid: int,
         "attack": row.get("attack"),
         "craftable": bool(row.get("craftable")),
         "final": bool(row.get("final")),
+        "element": row.get("element1"),
+        "element_attack": row.get("element1_attack"),
+        "element_hidden": bool(row.get("element_hidden")),
+        "affinity": row.get("affinity") or 0,
+        "defense": row.get("defense") or 0,
+        "elderseal": row.get("elderseal"),
         "children": []
     }
     for child_id in children_map.get(wid, []):
@@ -95,7 +109,9 @@ def pretty_print(node: Dict[str, Any], indent: int = 0):
     for c in node.get("children", []):
         pretty_print(c, indent + 1)
 
-def export_json(obj: Any, path: str = "horn_crafting_forest.json"):
+def export_json(obj: Any, path = None):
+    if path is None:
+        path = BASE_DIR / "horn_crafting_forest.json"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
     print(f"Exportado JSON a: {path}")

@@ -2,17 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hunting Horn Tree</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MHW Hunting Horn Melody Tree</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="sidebar">
-    <h2>Songs</h2>
-    <ul id="song-list"></ul>
-  </div>
-  <div id="container">
+  <aside id="sidebar">
+    <div class="sidebar-header">
+      <h2>Hunting Horns</h2>
+      <div class="filter-actions">
+        <span id="match-counter" class="match-counter">Loading horns...</span>
+        <button id="clear-filter" class="btn-clear" style="display: none;">Clear All</button>
+      </div>
+    </div>
+
+    <!-- Element Filters -->
+    <div class="filter-section">
+      <div class="filter-section-header">
+        <span class="filter-section-title">Element / Status</span>
+        <button id="clear-elem-btn" class="btn-text-clear" style="display: none;">Clear</button>
+      </div>
+      <div class="elem-filter-grid" id="elem-filter-grid">
+        <button type="button" class="elem-filter-btn" data-element="Fire" title="Fire">
+          <img src="img/Element_Fire_Icon.webp" alt="Fire">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Water" title="Water">
+          <img src="img/Element_Water_Icon.webp" alt="Water">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Thunder" title="Thunder">
+          <img src="img/Element_Thunder_Icon.webp" alt="Thunder">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Ice" title="Ice">
+          <img src="img/Element_Ice_Icon.webp" alt="Ice">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Dragon" title="Dragon">
+          <img src="img/Element_Dragon_Icon.webp" alt="Dragon">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Poison" title="Poison">
+          <img src="img/Status_Poison_Icon.webp" alt="Poison">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Paralysis" title="Paralysis">
+          <img src="img/Status_Paralysis_Icon.webp" alt="Paralysis">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Sleep" title="Sleep">
+          <img src="img/Status_Sleep_Icon.webp" alt="Sleep">
+        </button>
+        <button type="button" class="elem-filter-btn" data-element="Blast" title="Blast">
+          <img src="img/Status_Blastblight_Icon.webp" alt="Blast">
+        </button>
+        <button type="button" class="elem-filter-btn elem-none-btn" data-element="None" title="Non-elemental">
+          <span>None</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Attribute Bonus Filters -->
+    <div class="filter-section">
+      <div class="filter-section-header">
+        <span class="filter-section-title">Attributes</span>
+      </div>
+      <div class="attr-filter-row">
+        <button type="button" class="attr-filter-btn" id="filter-affinity-btn" title="Filter horns with positive affinity">
+          <img src="img/600px-MHWI-Affinity_Icon.png.webp" class="stat-icon" alt="Affinity">
+          <span>+Affinity</span>
+        </button>
+        <button type="button" class="attr-filter-btn" id="filter-defense-btn" title="Filter horns with defense bonus">
+          <img src="img/600px-MHWI-Defense_Icon.png.webp" class="stat-icon" alt="Defense">
+          <span>+Defense</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Melody Filters -->
+    <div class="filter-section filter-section-melodies">
+      <div class="filter-section-header">
+        <span class="filter-section-title">Melodies</span>
+        <button id="clear-song-btn" class="btn-text-clear" style="display: none;">Clear</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="song-search" placeholder="Search melodies..." autocomplete="off">
+        <button id="search-clear-btn" class="search-clear-btn" title="Clear search" style="display: none;">&times;</button>
+      </div>
+      <ul id="song-list"></ul>
+    </div>
+  </aside>
+  <main id="container">
     <canvas id="connections"></canvas>
-  </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>

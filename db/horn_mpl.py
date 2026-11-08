@@ -2,7 +2,9 @@ import sqlite3
 import networkx as nx
 import matplotlib.pyplot as plt
 
-DB_PATH = "mhw.db"
+from pathlib import Path
+
+DB_PATH = Path(__file__).resolve().parent / "mhw.db"
 
 def fetch_horns():
     conn = sqlite3.connect(DB_PATH)

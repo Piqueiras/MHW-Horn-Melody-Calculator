@@ -7,10 +7,11 @@ Cambia DB_PATH a la ruta de tu fichero .sql/.sqlite
 import sqlite3
 import json
 import csv
+from pathlib import Path
 from collections import Counter, defaultdict
 from typing import List, Dict, Tuple
 
-DB_PATH = "mhw.db"
+DB_PATH = Path(__file__).resolve().parent / "mhw.db"
 
 # Mapeo sugerido letra -> color/nombre (ajusta si en tu dataset difiere)
 LETTER_TO_COLOR = {
