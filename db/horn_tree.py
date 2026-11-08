@@ -29,7 +29,10 @@ SELECT
   w.defense,
   w.elderseal,
   w.sharpness,
-  w.sharpness_maxed
+  w.sharpness_maxed,
+  w.slot_1,
+  w.slot_2,
+  w.slot_3
 FROM weapon w
 LEFT JOIN weapon_text wt ON wt.id = w.id AND wt.lang_id = 'en'
 WHERE w.weapon_type = 'hunting-horn'
@@ -87,6 +90,8 @@ def build_tree_rec(wid: int,
         "elderseal": row.get("elderseal"),
         "sharpness": row.get("sharpness"),
         "sharpness_maxed": row.get("sharpness_maxed"),
+        "slots": [s for s in [row.get("slot_1") or 0, row.get("slot_2") or 0, row.get("slot_3") or 0] if s > 0],
+        "slots_total": sum([s for s in [row.get("slot_1") or 0, row.get("slot_2") or 0, row.get("slot_3") or 0] if s > 0]),
         "children": []
     }
     for child_id in children_map.get(wid, []):

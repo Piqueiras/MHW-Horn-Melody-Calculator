@@ -81,7 +81,10 @@ cur.execute("""
       w.defense,
       w.elderseal,
       w.sharpness,
-      w.sharpness_maxed
+      w.sharpness_maxed,
+      w.slot_1,
+      w.slot_2,
+      w.slot_3
     FROM weapon w
     WHERE w.weapon_type = 'hunting-horn'
 """)
@@ -110,6 +113,13 @@ def enrich_node(node):
     node["base_color"] = sh_info["base_color"]
     node["max_color"] = sh_info["max_color"]
     node["has_sharpness_upgrade"] = sh_info["has_upgrade"]
+
+    s1 = w.get("slot_1") or 0
+    s2 = w.get("slot_2") or 0
+    s3 = w.get("slot_3") or 0
+    slots = [s for s in [s1, s2, s3] if s > 0]
+    node["slots"] = slots
+    node["slots_total"] = sum(slots)
 
     for child in node.get("children", []):
         enrich_node(child)

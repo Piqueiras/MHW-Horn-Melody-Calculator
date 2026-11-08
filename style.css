@@ -219,6 +219,12 @@ body {
   background: rgba(147, 197, 253, 0.12);
 }
 
+.node .stat-item.slots {
+  color: #67e8f9;
+  background: rgba(6, 182, 212, 0.14);
+  border: 1px solid rgba(6, 182, 212, 0.28);
+}
+
 .node .empty-secondary {
   color: #334155;
   font-size: 0.7rem;
@@ -284,10 +290,31 @@ body {
 
 .tooltip-elem-row {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
   margin-top: 6px;
   font-size: 0.8rem;
+}
+
+.tooltip-elem-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tooltip-slots-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.tooltip-slot-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
 }
 
 .def-bonus {

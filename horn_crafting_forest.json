@@ -136,7 +136,12 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                1,
+                                                1
+                                              ],
+                                              "slots_total": 2
                                             },
                                             {
                                               "id": 2422,
@@ -193,7 +198,11 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [
+                                                    3
+                                                  ],
+                                                  "slots_total": 3
                                                 }
                                               ],
                                               "element": "Poison",
@@ -233,7 +242,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                3
+                                              ],
+                                              "slots_total": 3
                                             }
                                           ],
                                           "element": "Paralysis",
@@ -273,7 +286,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            1,
+                                            1
+                                          ],
+                                          "slots_total": 2
                                         }
                                       ],
                                       "element": "Paralysis",
@@ -313,7 +331,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        1,
+                                        1
+                                      ],
+                                      "slots_total": 2
                                     }
                                   ],
                                   "element": "Paralysis",
@@ -353,7 +376,12 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    1,
+                                    1
+                                  ],
+                                  "slots_total": 2
                                 },
                                 {
                                   "id": 437,
@@ -419,7 +447,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            1
+                                          ],
+                                          "slots_total": 1
                                         }
                                       ],
                                       "element": "Dragon",
@@ -459,7 +491,11 @@
                                       ],
                                       "base_color": "blue",
                                       "max_color": "blue",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        1
+                                      ],
+                                      "slots_total": 1
                                     }
                                   ],
                                   "element": "Dragon",
@@ -499,7 +535,11 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "blue",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [
+                                    1
+                                  ],
+                                  "slots_total": 1
                                 }
                               ],
                               "element": "Paralysis",
@@ -539,7 +579,11 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                1
+                              ],
+                              "slots_total": 1
                             }
                           ],
                           "element": "Paralysis",
@@ -579,7 +623,11 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [
+                            1
+                          ],
+                          "slots_total": 1
                         }
                       ],
                       "element": null,
@@ -619,7 +667,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": null,
@@ -659,7 +709,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 },
                 {
                   "id": 439,
@@ -779,7 +831,11 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [
+                                                    2
+                                                  ],
+                                                  "slots_total": 2
                                                 }
                                               ],
                                               "element": "Thunder",
@@ -819,7 +875,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                2
+                                              ],
+                                              "slots_total": 2
                                             }
                                           ],
                                           "element": "Thunder",
@@ -859,7 +919,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            2
+                                          ],
+                                          "slots_total": 2
                                         }
                                       ],
                                       "element": "Thunder",
@@ -899,7 +963,11 @@
                                       ],
                                       "base_color": "blue",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": true
+                                      "has_sharpness_upgrade": true,
+                                      "slots": [
+                                        3
+                                      ],
+                                      "slots_total": 3
                                     }
                                   ],
                                   "element": "Thunder",
@@ -939,7 +1007,11 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    3
+                                  ],
+                                  "slots_total": 3
                                 }
                               ],
                               "element": "Thunder",
@@ -979,7 +1051,11 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                3
+                              ],
+                              "slots_total": 3
                             }
                           ],
                           "element": "Thunder",
@@ -1019,7 +1095,11 @@
                           ],
                           "base_color": "green",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": true
+                          "has_sharpness_upgrade": true,
+                          "slots": [
+                            3
+                          ],
+                          "slots_total": 3
                         }
                       ],
                       "element": "Thunder",
@@ -1059,7 +1139,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Thunder",
@@ -1099,7 +1181,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": null,
@@ -1139,7 +1223,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             },
             {
               "id": 444,
@@ -1250,7 +1336,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         },
                                         {
                                           "id": 2431,
@@ -1316,7 +1404,9 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "white",
-                                                  "has_sharpness_upgrade": false
+                                                  "has_sharpness_upgrade": false,
+                                                  "slots": [],
+                                                  "slots_total": 0
                                                 }
                                               ],
                                               "element": "Blast",
@@ -1356,7 +1446,9 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": false
+                                              "has_sharpness_upgrade": false,
+                                              "slots": [],
+                                              "slots_total": 0
                                             },
                                             {
                                               "id": 2434,
@@ -1413,7 +1505,9 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [],
+                                                  "slots_total": 0
                                                 }
                                               ],
                                               "element": "Sleep",
@@ -1453,7 +1547,9 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [],
+                                              "slots_total": 0
                                             }
                                           ],
                                           "element": "Blast",
@@ -1493,7 +1589,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         }
                                       ],
                                       "element": "Sleep",
@@ -1533,7 +1631,9 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [],
+                                      "slots_total": 0
                                     }
                                   ],
                                   "element": "Sleep",
@@ -1573,7 +1673,9 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [],
+                                  "slots_total": 0
                                 }
                               ],
                               "element": "Sleep",
@@ -1613,7 +1715,9 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [],
+                              "slots_total": 0
                             }
                           ],
                           "element": "Sleep",
@@ -1653,7 +1757,9 @@
                           ],
                           "base_color": "green",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": true
+                          "has_sharpness_upgrade": true,
+                          "slots": [],
+                          "slots_total": 0
                         }
                       ],
                       "element": null,
@@ -1693,7 +1799,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": null,
@@ -1733,7 +1841,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 },
                 {
                   "id": 450,
@@ -1835,7 +1945,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            2
+                                          ],
+                                          "slots_total": 2
                                         }
                                       ],
                                       "element": "Fire",
@@ -1875,7 +1989,11 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        2
+                                      ],
+                                      "slots_total": 2
                                     }
                                   ],
                                   "element": "Fire",
@@ -1915,7 +2033,11 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    2
+                                  ],
+                                  "slots_total": 2
                                 }
                               ],
                               "element": "Fire",
@@ -1955,7 +2077,11 @@
                               ],
                               "base_color": "blue",
                               "max_color": "white",
-                              "has_sharpness_upgrade": true
+                              "has_sharpness_upgrade": true,
+                              "slots": [
+                                2
+                              ],
+                              "slots_total": 2
                             }
                           ],
                           "element": "Fire",
@@ -1995,7 +2121,11 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [
+                            2
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": "Fire",
@@ -2035,7 +2165,11 @@
                       ],
                       "base_color": "blue",
                       "max_color": "blue",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [
+                        2
+                      ],
+                      "slots_total": 2
                     }
                   ],
                   "element": "Fire",
@@ -2075,7 +2209,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": null,
@@ -2115,7 +2251,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             },
             {
               "id": 454,
@@ -2235,7 +2373,12 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                2,
+                                                1
+                                              ],
+                                              "slots_total": 3
                                             }
                                           ],
                                           "element": "Water",
@@ -2275,7 +2418,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            2,
+                                            1
+                                          ],
+                                          "slots_total": 3
                                         },
                                         {
                                           "id": 2442,
@@ -2341,7 +2489,9 @@
                                                   ],
                                                   "base_color": "purple",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": false
+                                                  "has_sharpness_upgrade": false,
+                                                  "slots": [],
+                                                  "slots_total": 0
                                                 }
                                               ],
                                               "element": "Poison",
@@ -2381,7 +2531,9 @@
                                               ],
                                               "base_color": "purple",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": false
+                                              "has_sharpness_upgrade": false,
+                                              "slots": [],
+                                              "slots_total": 0
                                             }
                                           ],
                                           "element": "Poison",
@@ -2421,7 +2573,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         }
                                       ],
                                       "element": "Water",
@@ -2461,7 +2615,11 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        2
+                                      ],
+                                      "slots_total": 2
                                     }
                                   ],
                                   "element": "Water",
@@ -2501,7 +2659,11 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    2
+                                  ],
+                                  "slots_total": 2
                                 }
                               ],
                               "element": "Water",
@@ -2541,7 +2703,11 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                2
+                              ],
+                              "slots_total": 2
                             }
                           ],
                           "element": "Water",
@@ -2581,7 +2747,11 @@
                           ],
                           "base_color": "green",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": true
+                          "has_sharpness_upgrade": true,
+                          "slots": [
+                            2
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": "Water",
@@ -2621,7 +2791,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     },
                     {
                       "id": 460,
@@ -2723,7 +2895,9 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [],
+                                              "slots_total": 0
                                             }
                                           ],
                                           "element": "Ice",
@@ -2763,7 +2937,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         }
                                       ],
                                       "element": "Ice",
@@ -2803,7 +2979,9 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [],
+                                      "slots_total": 0
                                     }
                                   ],
                                   "element": "Ice",
@@ -2843,7 +3021,9 @@
                                   ],
                                   "base_color": "white",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [],
+                                  "slots_total": 0
                                 }
                               ],
                               "element": "Ice",
@@ -2883,7 +3063,9 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [],
+                              "slots_total": 0
                             }
                           ],
                           "element": "Ice",
@@ -2923,7 +3105,9 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [],
+                          "slots_total": 0
                         }
                       ],
                       "element": "Ice",
@@ -2963,7 +3147,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Water",
@@ -3003,7 +3189,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Water",
@@ -3043,7 +3231,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             }
           ],
           "element": null,
@@ -3083,7 +3273,9 @@
           ],
           "base_color": "green",
           "max_color": "green",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": null,
@@ -3123,7 +3315,9 @@
       ],
       "base_color": "yellow",
       "max_color": "green",
-      "has_sharpness_upgrade": true
+      "has_sharpness_upgrade": true,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 464,
@@ -3261,7 +3455,11 @@
                                               ],
                                               "base_color": "blue",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                3
+                                              ],
+                                              "slots_total": 3
                                             },
                                             {
                                               "id": 2451,
@@ -3318,7 +3516,11 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [
+                                                    4
+                                                  ],
+                                                  "slots_total": 4
                                                 }
                                               ],
                                               "element": "Ice",
@@ -3358,7 +3560,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                4
+                                              ],
+                                              "slots_total": 4
                                             }
                                           ],
                                           "element": "Ice",
@@ -3398,7 +3604,11 @@
                                           ],
                                           "base_color": "blue",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            3
+                                          ],
+                                          "slots_total": 3
                                         }
                                       ],
                                       "element": "Ice",
@@ -3438,7 +3648,11 @@
                                       ],
                                       "base_color": "blue",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": true
+                                      "has_sharpness_upgrade": true,
+                                      "slots": [
+                                        3
+                                      ],
+                                      "slots_total": 3
                                     }
                                   ],
                                   "element": "Ice",
@@ -3478,7 +3692,11 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "blue",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [
+                                    3
+                                  ],
+                                  "slots_total": 3
                                 }
                               ],
                               "element": "Ice",
@@ -3518,7 +3736,11 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                2
+                              ],
+                              "slots_total": 2
                             },
                             {
                               "id": 472,
@@ -3593,7 +3815,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            3,
+                                            2
+                                          ],
+                                          "slots_total": 5
                                         },
                                         {
                                           "id": 2455,
@@ -3659,7 +3886,11 @@
                                                   ],
                                                   "base_color": "white",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [
+                                                    1
+                                                  ],
+                                                  "slots_total": 1
                                                 }
                                               ],
                                               "element": "Fire",
@@ -3699,7 +3930,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                1
+                                              ],
+                                              "slots_total": 1
                                             }
                                           ],
                                           "element": "Fire",
@@ -3739,7 +3974,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            1
+                                          ],
+                                          "slots_total": 1
                                         }
                                       ],
                                       "element": "Blast",
@@ -3779,7 +4018,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        3,
+                                        2
+                                      ],
+                                      "slots_total": 5
                                     }
                                   ],
                                   "element": "Blast",
@@ -3819,7 +4063,12 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    2,
+                                    2
+                                  ],
+                                  "slots_total": 4
                                 }
                               ],
                               "element": "Blast",
@@ -3859,7 +4108,12 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                2,
+                                2
+                              ],
+                              "slots_total": 4
                             }
                           ],
                           "element": "Ice",
@@ -3899,7 +4153,11 @@
                           ],
                           "base_color": "green",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": true
+                          "has_sharpness_upgrade": true,
+                          "slots": [
+                            2
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": null,
@@ -3939,7 +4197,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": null,
@@ -3979,7 +4239,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 },
                 {
                   "id": 474,
@@ -4081,7 +4343,9 @@
                                           ],
                                           "base_color": "blue",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [],
+                                          "slots_total": 0
                                         },
                                         {
                                           "id": 2460,
@@ -4138,7 +4402,11 @@
                                               ],
                                               "base_color": "blue",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                1
+                                              ],
+                                              "slots_total": 1
                                             },
                                             {
                                               "id": 2462,
@@ -4195,7 +4463,11 @@
                                                   ],
                                                   "base_color": "blue",
                                                   "max_color": "purple",
-                                                  "has_sharpness_upgrade": true
+                                                  "has_sharpness_upgrade": true,
+                                                  "slots": [
+                                                    4
+                                                  ],
+                                                  "slots_total": 4
                                                 }
                                               ],
                                               "element": "Paralysis",
@@ -4235,7 +4507,11 @@
                                               ],
                                               "base_color": "blue",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": true
+                                              "has_sharpness_upgrade": true,
+                                              "slots": [
+                                                4
+                                              ],
+                                              "slots_total": 4
                                             }
                                           ],
                                           "element": "Thunder",
@@ -4275,7 +4551,9 @@
                                           ],
                                           "base_color": "blue",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [],
+                                          "slots_total": 0
                                         }
                                       ],
                                       "element": "Fire",
@@ -4315,7 +4593,9 @@
                                       ],
                                       "base_color": "blue",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": true
+                                      "has_sharpness_upgrade": true,
+                                      "slots": [],
+                                      "slots_total": 0
                                     }
                                   ],
                                   "element": "Fire",
@@ -4355,7 +4635,9 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "blue",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [],
+                                  "slots_total": 0
                                 }
                               ],
                               "element": "Fire",
@@ -4395,7 +4677,9 @@
                               ],
                               "base_color": "green",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": true
+                              "has_sharpness_upgrade": true,
+                              "slots": [],
+                              "slots_total": 0
                             }
                           ],
                           "element": "Fire",
@@ -4435,7 +4719,9 @@
                           ],
                           "base_color": "green",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": true
+                          "has_sharpness_upgrade": true,
+                          "slots": [],
+                          "slots_total": 0
                         }
                       ],
                       "element": "Fire",
@@ -4475,7 +4761,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Fire",
@@ -4515,7 +4803,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": null,
@@ -4555,7 +4845,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             },
             {
               "id": 479,
@@ -4666,7 +4958,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            2,
+                                            1
+                                          ],
+                                          "slots_total": 3
                                         },
                                         {
                                           "id": 2466,
@@ -4723,7 +5020,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": false
+                                              "has_sharpness_upgrade": false,
+                                              "slots": [
+                                                1
+                                              ],
+                                              "slots_total": 1
                                             },
                                             {
                                               "id": 3227,
@@ -4771,7 +5072,9 @@
                                               ],
                                               "base_color": "purple",
                                               "max_color": "purple",
-                                              "has_sharpness_upgrade": false
+                                              "has_sharpness_upgrade": false,
+                                              "slots": [],
+                                              "slots_total": 0
                                             }
                                           ],
                                           "element": "Ice",
@@ -4811,7 +5114,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         }
                                       ],
                                       "element": "Poison",
@@ -4851,7 +5156,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        2,
+                                        1
+                                      ],
+                                      "slots_total": 3
                                     }
                                   ],
                                   "element": "Poison",
@@ -4891,7 +5201,12 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "blue",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [
+                                    2,
+                                    1
+                                  ],
+                                  "slots_total": 3
                                 }
                               ],
                               "element": "Poison",
@@ -4931,7 +5246,12 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                1,
+                                1
+                              ],
+                              "slots_total": 2
                             }
                           ],
                           "element": "Poison",
@@ -4971,7 +5291,12 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [
+                            1,
+                            1
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": "Poison",
@@ -5011,7 +5336,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Poison",
@@ -5051,7 +5378,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 },
                 {
                   "id": 485,
@@ -5153,7 +5482,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            3,
+                                            1
+                                          ],
+                                          "slots_total": 4
                                         }
                                       ],
                                       "element": "Water",
@@ -5193,7 +5527,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        3,
+                                        1
+                                      ],
+                                      "slots_total": 4
                                     },
                                     {
                                       "id": 2470,
@@ -5250,7 +5589,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            2
+                                          ],
+                                          "slots_total": 2
                                         }
                                       ],
                                       "element": "Sleep",
@@ -5290,7 +5633,11 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        2
+                                      ],
+                                      "slots_total": 2
                                     }
                                   ],
                                   "element": "Water",
@@ -5330,7 +5677,12 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    3,
+                                    1
+                                  ],
+                                  "slots_total": 4
                                 }
                               ],
                               "element": "Water",
@@ -5370,7 +5722,12 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                2,
+                                1
+                              ],
+                              "slots_total": 3
                             },
                             {
                               "id": 490,
@@ -5445,7 +5802,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            2,
+                                            2
+                                          ],
+                                          "slots_total": 4
                                         }
                                       ],
                                       "element": "Blast",
@@ -5485,7 +5847,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "purple",
-                                      "has_sharpness_upgrade": true
+                                      "has_sharpness_upgrade": true,
+                                      "slots": [
+                                        2,
+                                        2
+                                      ],
+                                      "slots_total": 4
                                     }
                                   ],
                                   "element": "Blast",
@@ -5525,7 +5892,12 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": true
+                                  "has_sharpness_upgrade": true,
+                                  "slots": [
+                                    2,
+                                    2
+                                  ],
+                                  "slots_total": 4
                                 }
                               ],
                               "element": "Blast",
@@ -5565,7 +5937,12 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                2,
+                                2
+                              ],
+                              "slots_total": 4
                             }
                           ],
                           "element": "Water",
@@ -5605,7 +5982,12 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [
+                            1,
+                            1
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": null,
@@ -5645,7 +6027,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": null,
@@ -5685,7 +6069,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Poison",
@@ -5725,7 +6111,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             },
             {
               "id": 492,
@@ -5836,7 +6224,12 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "purple",
-                                          "has_sharpness_upgrade": true
+                                          "has_sharpness_upgrade": true,
+                                          "slots": [
+                                            4,
+                                            1
+                                          ],
+                                          "slots_total": 5
                                         }
                                       ],
                                       "element": "Paralysis",
@@ -5876,7 +6269,12 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [
+                                        4,
+                                        1
+                                      ],
+                                      "slots_total": 5
                                     }
                                   ],
                                   "element": "Paralysis",
@@ -5916,7 +6314,12 @@
                                   ],
                                   "base_color": "white",
                                   "max_color": "white",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [
+                                    1,
+                                    1
+                                  ],
+                                  "slots_total": 2
                                 }
                               ],
                               "element": "Paralysis",
@@ -5956,7 +6359,12 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [
+                                1,
+                                1
+                              ],
+                              "slots_total": 2
                             }
                           ],
                           "element": "Paralysis",
@@ -5996,7 +6404,12 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [
+                            1,
+                            1
+                          ],
+                          "slots_total": 2
                         }
                       ],
                       "element": "Paralysis",
@@ -6036,7 +6449,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Paralysis",
@@ -6076,7 +6491,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 },
                 {
                   "id": 498,
@@ -6178,7 +6595,9 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [],
+                                          "slots_total": 0
                                         },
                                         {
                                           "id": 2478,
@@ -6235,7 +6654,11 @@
                                               ],
                                               "base_color": "white",
                                               "max_color": "white",
-                                              "has_sharpness_upgrade": false
+                                              "has_sharpness_upgrade": false,
+                                              "slots": [
+                                                1
+                                              ],
+                                              "slots_total": 1
                                             }
                                           ],
                                           "element": "Blast",
@@ -6275,7 +6698,11 @@
                                           ],
                                           "base_color": "white",
                                           "max_color": "white",
-                                          "has_sharpness_upgrade": false
+                                          "has_sharpness_upgrade": false,
+                                          "slots": [
+                                            1
+                                          ],
+                                          "slots_total": 1
                                         }
                                       ],
                                       "element": "Sleep",
@@ -6315,7 +6742,9 @@
                                       ],
                                       "base_color": "white",
                                       "max_color": "white",
-                                      "has_sharpness_upgrade": false
+                                      "has_sharpness_upgrade": false,
+                                      "slots": [],
+                                      "slots_total": 0
                                     }
                                   ],
                                   "element": "Sleep",
@@ -6355,7 +6784,9 @@
                                   ],
                                   "base_color": "blue",
                                   "max_color": "blue",
-                                  "has_sharpness_upgrade": false
+                                  "has_sharpness_upgrade": false,
+                                  "slots": [],
+                                  "slots_total": 0
                                 }
                               ],
                               "element": "Sleep",
@@ -6395,7 +6826,9 @@
                               ],
                               "base_color": "blue",
                               "max_color": "blue",
-                              "has_sharpness_upgrade": false
+                              "has_sharpness_upgrade": false,
+                              "slots": [],
+                              "slots_total": 0
                             }
                           ],
                           "element": "Sleep",
@@ -6435,7 +6868,9 @@
                           ],
                           "base_color": "blue",
                           "max_color": "blue",
-                          "has_sharpness_upgrade": false
+                          "has_sharpness_upgrade": false,
+                          "slots": [],
+                          "slots_total": 0
                         }
                       ],
                       "element": "Sleep",
@@ -6475,7 +6910,9 @@
                       ],
                       "base_color": "green",
                       "max_color": "green",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Sleep",
@@ -6515,7 +6952,9 @@
                   ],
                   "base_color": "green",
                   "max_color": "green",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Paralysis",
@@ -6555,7 +6994,9 @@
               ],
               "base_color": "green",
               "max_color": "green",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             }
           ],
           "element": null,
@@ -6595,7 +7036,9 @@
           ],
           "base_color": "yellow",
           "max_color": "green",
-          "has_sharpness_upgrade": true
+          "has_sharpness_upgrade": true,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": null,
@@ -6635,7 +7078,9 @@
       ],
       "base_color": "yellow",
       "max_color": "yellow",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 503,
@@ -6719,7 +7164,12 @@
                       ],
                       "base_color": "blue",
                       "max_color": "white",
-                      "has_sharpness_upgrade": true
+                      "has_sharpness_upgrade": true,
+                      "slots": [
+                        1,
+                        1
+                      ],
+                      "slots_total": 2
                     },
                     {
                       "id": 2482,
@@ -6767,7 +7217,12 @@
                       ],
                       "base_color": "white",
                       "max_color": "purple",
-                      "has_sharpness_upgrade": true
+                      "has_sharpness_upgrade": true,
+                      "slots": [
+                        1,
+                        1
+                      ],
+                      "slots_total": 2
                     }
                   ],
                   "element": "Dragon",
@@ -6807,7 +7262,12 @@
                   ],
                   "base_color": "blue",
                   "max_color": "white",
-                  "has_sharpness_upgrade": true
+                  "has_sharpness_upgrade": true,
+                  "slots": [
+                    1,
+                    1
+                  ],
+                  "slots_total": 2
                 }
               ],
               "element": "Dragon",
@@ -6847,7 +7307,12 @@
               ],
               "base_color": "blue",
               "max_color": "white",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [
+                1,
+                1
+              ],
+              "slots_total": 2
             }
           ],
           "element": "Dragon",
@@ -6887,7 +7352,9 @@
           ],
           "base_color": "green",
           "max_color": "green",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [],
+          "slots_total": 0
         },
         {
           "id": 506,
@@ -6962,7 +7429,9 @@
                       ],
                       "base_color": "white",
                       "max_color": "white",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     },
                     {
                       "id": 2484,
@@ -7010,7 +7479,11 @@
                       ],
                       "base_color": "white",
                       "max_color": "white",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [
+                        1
+                      ],
+                      "slots_total": 1
                     }
                   ],
                   "element": "Thunder",
@@ -7050,7 +7523,9 @@
                   ],
                   "base_color": "blue",
                   "max_color": "blue",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Thunder",
@@ -7090,7 +7565,9 @@
               ],
               "base_color": "blue",
               "max_color": "blue",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             }
           ],
           "element": "Thunder",
@@ -7130,7 +7607,9 @@
           ],
           "base_color": "green",
           "max_color": "green",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": "Dragon",
@@ -7170,7 +7649,9 @@
       ],
       "base_color": "green",
       "max_color": "green",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 509,
@@ -7254,7 +7735,9 @@
                       ],
                       "base_color": "white",
                       "max_color": "white",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Blast",
@@ -7294,7 +7777,9 @@
                   ],
                   "base_color": "blue",
                   "max_color": "white",
-                  "has_sharpness_upgrade": true
+                  "has_sharpness_upgrade": true,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Blast",
@@ -7334,7 +7819,9 @@
               ],
               "base_color": "blue",
               "max_color": "white",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [],
+              "slots_total": 0
             },
             {
               "id": 513,
@@ -7382,7 +7869,12 @@
               ],
               "base_color": "white",
               "max_color": "white",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [
+                3,
+                3
+              ],
+              "slots_total": 6
             }
           ],
           "element": "Dragon",
@@ -7422,7 +7914,9 @@
           ],
           "base_color": "green",
           "max_color": "blue",
-          "has_sharpness_upgrade": true
+          "has_sharpness_upgrade": true,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": "Dragon",
@@ -7462,7 +7956,9 @@
       ],
       "base_color": "yellow",
       "max_color": "blue",
-      "has_sharpness_upgrade": true
+      "has_sharpness_upgrade": true,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 1160,
@@ -7528,7 +8024,9 @@
               ],
               "base_color": "white",
               "max_color": "purple",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [],
+              "slots_total": 0
             }
           ],
           "element": "Dragon",
@@ -7568,7 +8066,9 @@
           ],
           "base_color": "blue",
           "max_color": "white",
-          "has_sharpness_upgrade": true
+          "has_sharpness_upgrade": true,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": "Dragon",
@@ -7608,7 +8108,9 @@
       ],
       "base_color": "blue",
       "max_color": "white",
-      "has_sharpness_upgrade": true
+      "has_sharpness_upgrade": true,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 1214,
@@ -7674,7 +8176,12 @@
               ],
               "base_color": "white",
               "max_color": "purple",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [
+                2,
+                1
+              ],
+              "slots_total": 3
             }
           ],
           "element": "Blast",
@@ -7714,7 +8221,11 @@
           ],
           "base_color": "white",
           "max_color": "white",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            1
+          ],
+          "slots_total": 1
         },
         {
           "id": 1216,
@@ -7771,7 +8282,12 @@
               ],
               "base_color": "white",
               "max_color": "purple",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [
+                2,
+                2
+              ],
+              "slots_total": 4
             }
           ],
           "element": "Blast",
@@ -7811,7 +8327,11 @@
           ],
           "base_color": "white",
           "max_color": "white",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            2
+          ],
+          "slots_total": 2
         },
         {
           "id": 1217,
@@ -7868,7 +8388,12 @@
               ],
               "base_color": "white",
               "max_color": "purple",
-              "has_sharpness_upgrade": true
+              "has_sharpness_upgrade": true,
+              "slots": [
+                3,
+                3
+              ],
+              "slots_total": 6
             }
           ],
           "element": "Blast",
@@ -7908,7 +8433,12 @@
           ],
           "base_color": "white",
           "max_color": "white",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            3,
+            1
+          ],
+          "slots_total": 4
         }
       ],
       "element": "Blast",
@@ -7948,7 +8478,11 @@
       ],
       "base_color": "white",
       "max_color": "white",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [
+        1
+      ],
+      "slots_total": 1
     },
     {
       "id": 2414,
@@ -8032,7 +8566,9 @@
                       ],
                       "base_color": "white",
                       "max_color": "white",
-                      "has_sharpness_upgrade": false
+                      "has_sharpness_upgrade": false,
+                      "slots": [],
+                      "slots_total": 0
                     }
                   ],
                   "element": "Blast",
@@ -8072,7 +8608,9 @@
                   ],
                   "base_color": "blue",
                   "max_color": "blue",
-                  "has_sharpness_upgrade": false
+                  "has_sharpness_upgrade": false,
+                  "slots": [],
+                  "slots_total": 0
                 }
               ],
               "element": "Blast",
@@ -8112,7 +8650,9 @@
               ],
               "base_color": "blue",
               "max_color": "blue",
-              "has_sharpness_upgrade": false
+              "has_sharpness_upgrade": false,
+              "slots": [],
+              "slots_total": 0
             }
           ],
           "element": "Blast",
@@ -8152,7 +8692,9 @@
           ],
           "base_color": "green",
           "max_color": "blue",
-          "has_sharpness_upgrade": true
+          "has_sharpness_upgrade": true,
+          "slots": [],
+          "slots_total": 0
         }
       ],
       "element": "Blast",
@@ -8192,7 +8734,9 @@
       ],
       "base_color": "green",
       "max_color": "green",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 3142,
@@ -8249,7 +8793,11 @@
           ],
           "base_color": "blue",
           "max_color": "white",
-          "has_sharpness_upgrade": true
+          "has_sharpness_upgrade": true,
+          "slots": [
+            4
+          ],
+          "slots_total": 4
         }
       ],
       "element": "Thunder",
@@ -8289,7 +8837,11 @@
       ],
       "base_color": "blue",
       "max_color": "white",
-      "has_sharpness_upgrade": true
+      "has_sharpness_upgrade": true,
+      "slots": [
+        4
+      ],
+      "slots_total": 4
     },
     {
       "id": 3144,
@@ -8337,7 +8889,9 @@
       ],
       "base_color": "purple",
       "max_color": "purple",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [],
+      "slots_total": 0
     },
     {
       "id": 3145,
@@ -8394,7 +8948,11 @@
           ],
           "base_color": "purple",
           "max_color": "purple",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            2
+          ],
+          "slots_total": 2
         }
       ],
       "element": "Dragon",
@@ -8434,7 +8992,11 @@
       ],
       "base_color": "purple",
       "max_color": "purple",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [
+        2
+      ],
+      "slots_total": 2
     },
     {
       "id": 3147,
@@ -8482,7 +9044,12 @@
       ],
       "base_color": "purple",
       "max_color": "purple",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [
+        4,
+        3
+      ],
+      "slots_total": 7
     },
     {
       "id": 3204,
@@ -8539,7 +9106,12 @@
           ],
           "base_color": "purple",
           "max_color": "purple",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            2,
+            2
+          ],
+          "slots_total": 4
         }
       ],
       "element": "Dragon",
@@ -8579,7 +9151,11 @@
       ],
       "base_color": "purple",
       "max_color": "purple",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [
+        2
+      ],
+      "slots_total": 2
     },
     {
       "id": 3248,
@@ -8636,7 +9212,12 @@
           ],
           "base_color": "purple",
           "max_color": "purple",
-          "has_sharpness_upgrade": false
+          "has_sharpness_upgrade": false,
+          "slots": [
+            4,
+            4
+          ],
+          "slots_total": 8
         }
       ],
       "element": "Dragon",
@@ -8676,7 +9257,12 @@
       ],
       "base_color": "purple",
       "max_color": "purple",
-      "has_sharpness_upgrade": false
+      "has_sharpness_upgrade": false,
+      "slots": [
+        4,
+        4
+      ],
+      "slots_total": 8
     }
   ],
   "children_map": {

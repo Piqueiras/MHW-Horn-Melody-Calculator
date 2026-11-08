@@ -21,7 +21,16 @@ const STAT_ICONS = {
   affinity: "600px-MHWI-Affinity_Icon.png.webp",
   defense: "600px-MHWI-Defense_Icon.png.webp",
   elderseal: "UI-Elderseal.png",
-  sharpness: "UI-Sharpness_Icon.png"
+  sharpness: "UI-Sharpness_Icon.png",
+  slots: "UI-Decoration_Icon.png"
+};
+
+// Decoration slot level icons
+const SLOT_ICONS = {
+  1: "UI-Decoration_1.png",
+  2: "UI-Decoration_2.png",
+  3: "UI-Decoration_3.png",
+  4: "UI-Decoration_4.png"
 };
 
 // Sharpness tier colors (MHW standards)
@@ -307,7 +316,17 @@ Promise.all([
          </span>`
       : "";
 
-    const hasSecondary = Boolean(eldersealHtml || affinityHtml || defenseHtml);
+    const slotsDesc = (node.slots && node.slots.length > 0)
+      ? node.slots.map(s => `Level ${s}`).join(", ") + ` (Total: ${node.slots_total})`
+      : "";
+
+    const slotsHtml = (node.slots_total && node.slots_total > 0)
+      ? `<span class="stat-item slots" title="Decoration Slots: ${slotsDesc}">
+           <img src="img/${STAT_ICONS.slots}" alt="Slots" class="stat-icon"> ${node.slots_total}
+         </span>`
+      : "";
+
+    const hasSecondary = Boolean(eldersealHtml || affinityHtml || defenseHtml || slotsHtml);
     const accent = getSharpnessAccent(node);
 
     div.innerHTML = `
@@ -324,7 +343,7 @@ Promise.all([
         </span>
       </div>
       <div class="secondary-row">
-        ${hasSecondary ? `${eldersealHtml}${affinityHtml}${defenseHtml}` : `<span class="empty-secondary">—</span>`}
+        ${hasSecondary ? `${eldersealHtml}${affinityHtml}${defenseHtml}${slotsHtml}` : `<span class="empty-secondary">—</span>`}
       </div>
     `;
 
@@ -355,6 +374,22 @@ Promise.all([
            </span>`
         : "";
 
+      const detailedSlotsHtml = (node.slots && node.slots.length > 0)
+        ? node.slots.map(s => `<img src="img/${SLOT_ICONS[s]}" alt="Level ${s} Slot" class="tooltip-slot-img" title="Level ${s} Decoration Slot">`).join("")
+        : "";
+
+      const hasElemOrSlots = Boolean(cardElemHtml || eldersealHtml || detailedSlotsHtml);
+      const elemRowHtml = hasElemOrSlots ? `
+        <div class="tooltip-elem-row">
+          <div class="tooltip-elem-left">
+            ${cardElemHtml}
+            ${node.element ? `<span class="elem-name-label" style="font-size: 0.78rem; font-weight: 600; color: #94a3b8;">${node.element}</span>` : ''}
+            ${eldersealHtml}
+          </div>
+          ${detailedSlotsHtml ? `<div class="tooltip-slots-list" title="Decoration Slots: ${slotsDesc}">${detailedSlotsHtml}</div>` : ''}
+        </div>
+      ` : "";
+
       const sharpnessHtml = renderSharpnessGauge(node);
 
       songPanel.innerHTML = `
@@ -369,11 +404,7 @@ Promise.all([
             ${tooltipDefense}
             <div class="notes">${notesToImages(node.notes || "")}</div>
           </div>
-          <div class="tooltip-elem-row">
-            ${cardElemHtml}
-            ${node.element ? `<span class="elem-name-label" style="font-size: 0.78rem; font-weight: 600; color: #94a3b8;">${node.element}</span>` : ''}
-            ${eldersealHtml}
-          </div>
+          ${elemRowHtml}
           ${sharpnessHtml}
         </div>
         <div class="tooltip-songs">
