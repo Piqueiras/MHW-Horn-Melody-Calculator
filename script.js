@@ -576,6 +576,13 @@ Promise.all([
     });
   }
 
+  // Prevent wheel events inside the sidebar from chaining to the tree
+  if (sidebar) {
+    sidebar.addEventListener("wheel", (e) => {
+      e.stopPropagation();
+    }, { passive: true });
+  }
+
   // ------------------------------------------------------------------------
   // Sidebar Filtering & Faceted Mutual Exclusion
   // ------------------------------------------------------------------------

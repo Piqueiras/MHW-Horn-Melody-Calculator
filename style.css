@@ -485,16 +485,18 @@ body {
   top: 0;
   width: 330px;
   height: 100vh;
+  max-height: 100vh;
   background: #161820;
   color: #e2e8f0;
   padding: 16px 14px 14px 14px;
-  overflow: visible;
+  overflow: hidden;
   z-index: 100000;
   border-left: 1px solid #292e3c;
   display: flex;
   flex-direction: column;
   box-shadow: -4px 0 20px rgba(0, 0, 0, 0.45);
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  overscroll-behavior: contain;
 }
 
 #sidebar.collapsed {
@@ -502,9 +504,9 @@ body {
 }
 
 .sidebar-toggle-btn {
-  position: absolute;
+  position: fixed;
   top: 18px;
-  left: -32px;
+  right: 330px;
   width: 32px;
   height: 44px;
   background: #1e222e;
@@ -518,7 +520,7 @@ body {
   justify-content: center;
   font-size: 1.3rem;
   box-shadow: -4px 2px 10px rgba(0, 0, 0, 0.4);
-  transition: background 0.15s ease, color 0.15s ease, width 0.15s ease, left 0.15s ease;
+  transition: right 0.25s cubic-bezier(0.16, 1, 0.3, 1), background 0.15s ease, color 0.15s ease, width 0.15s ease;
   z-index: 100001;
 }
 
@@ -526,7 +528,11 @@ body {
   background: #282f40;
   color: #f8fafc;
   width: 36px;
-  left: -36px;
+}
+
+#sidebar.collapsed ~ .sidebar-toggle-btn {
+  right: 0;
+  border-right: 1px solid #363d4e;
 }
 
 .sidebar-toggle-btn .toggle-icon {
@@ -534,7 +540,7 @@ body {
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-#sidebar.collapsed .sidebar-toggle-btn .toggle-icon {
+#sidebar.collapsed ~ .sidebar-toggle-btn .toggle-icon {
   transform: rotate(180deg);
 }
 
@@ -682,10 +688,11 @@ body {
 
 /* Melodies Section in Sidebar */
 .filter-section-melodies {
-  flex-grow: 1;
+  flex: 1 1 0;
   display: flex;
   flex-direction: column;
   min-height: 0;
+  overflow: hidden;
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -778,7 +785,9 @@ body {
   padding: 0;
   margin: 0;
   overflow-y: auto;
-  flex-grow: 1;
+  flex: 1 1 0;
+  min-height: 0;
+  overscroll-behavior: contain;
 }
 
 #song-list::-webkit-scrollbar {
