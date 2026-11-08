@@ -432,7 +432,10 @@ Promise.all([
 
       songPanel.innerHTML = `
         <div class="tooltip-header">
-          <div class="tooltip-title">${node.name_en}</div>
+          <div class="tooltip-title-row">
+            <span class="tooltip-title">${node.name_en}</span>
+            ${node.kiranico_url ? `<span class="tooltip-kiranico-badge" title="Click card to view on Kiranico">Kiranico ↗</span>` : ''}
+          </div>
           <div class="tooltip-meta">
             <span class="rarity">★${node.rarity}</span>
             <span class="attack">
@@ -456,6 +459,19 @@ Promise.all([
     div.addEventListener("mouseleave", () => {
       songPanel.style.display = "none";
     });
+
+    // Click to open Kiranico page in a new tab
+    if (node.kiranico_url) {
+      div.addEventListener("click", () => {
+        songPanel.style.display = "none";
+        window.open(node.kiranico_url, "_blank", "noopener,noreferrer");
+      });
+      div.addEventListener("auxclick", (e) => {
+        if (e.button === 1) {
+          window.open(node.kiranico_url, "_blank", "noopener,noreferrer");
+        }
+      });
+    }
 
     node.el = div;
     container.appendChild(div);

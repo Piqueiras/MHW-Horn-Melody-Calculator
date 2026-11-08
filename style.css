@@ -229,6 +229,11 @@ body {
   z-index: 20;
 }
 
+.node:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
 .node .name {
   font-weight: 600;
   font-size: 0.84rem;
@@ -416,11 +421,34 @@ body {
   margin-bottom: 10px;
 }
 
+.tooltip-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
 .tooltip-title {
   font-size: 1.05rem;
   font-weight: 700;
   color: #f8fafc;
-  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.tooltip-kiranico-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 4px;
+  padding: 2px 6px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .tooltip-meta {

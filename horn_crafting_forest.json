@@ -141,7 +141,8 @@
                                                 1,
                                                 1
                                               ],
-                                              "slots_total": 2
+                                              "slots_total": 2,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/NBf5i8L/sforzando-iii"
                                             },
                                             {
                                               "id": 2422,
@@ -202,7 +203,8 @@
                                                   "slots": [
                                                     3
                                                   ],
-                                                  "slots_total": 3
+                                                  "slots_total": 3,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/5PfbwuOA/wolf-shamisen"
                                                 }
                                               ],
                                               "element": "Poison",
@@ -246,7 +248,8 @@
                                               "slots": [
                                                 3
                                               ],
-                                              "slots_total": 3
+                                              "slots_total": 3,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQfMLuy3/raven-shamisen"
                                             }
                                           ],
                                           "element": "Paralysis",
@@ -291,7 +294,8 @@
                                             1,
                                             1
                                           ],
-                                          "slots_total": 2
+                                          "slots_total": 2,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpf9iVZ/sforzando-ii"
                                         }
                                       ],
                                       "element": "Paralysis",
@@ -336,7 +340,8 @@
                                         1,
                                         1
                                       ],
-                                      "slots_total": 2
+                                      "slots_total": 2,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fLiLV/sforzando-i"
                                     }
                                   ],
                                   "element": "Paralysis",
@@ -381,7 +386,8 @@
                                     1,
                                     1
                                   ],
-                                  "slots_total": 2
+                                  "slots_total": 2,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/QYfViL/fortissimo-ii"
                                 },
                                 {
                                   "id": 437,
@@ -451,7 +457,8 @@
                                           "slots": [
                                             1
                                           ],
-                                          "slots_total": 1
+                                          "slots_total": 1,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/pBf4hrA/ruinous-desolation"
                                         }
                                       ],
                                       "element": "Dragon",
@@ -495,7 +502,8 @@
                                       "slots": [
                                         1
                                       ],
-                                      "slots_total": 1
+                                      "slots_total": 1,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYfXhN/desolations-overture"
                                     }
                                   ],
                                   "element": "Dragon",
@@ -539,7 +547,8 @@
                                   "slots": [
                                     1
                                   ],
-                                  "slots_total": 1
+                                  "slots_total": 1,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/kVfLhL/nergal-groove"
                                 }
                               ],
                               "element": "Paralysis",
@@ -583,7 +592,8 @@
                               "slots": [
                                 1
                               ],
-                              "slots_total": 1
+                              "slots_total": 1,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfMiV/fortissimo-i"
                             }
                           ],
                           "element": "Paralysis",
@@ -627,7 +637,8 @@
                           "slots": [
                             1
                           ],
-                          "slots_total": 1
+                          "slots_total": 1,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9fviR/great-bagpipe-iii"
                         }
                       ],
                       "element": null,
@@ -669,7 +680,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/AMfkio/great-bagpipe-ii"
                     }
                   ],
                   "element": null,
@@ -711,7 +723,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/XJf5ie/great-bagpipe-i"
                 },
                 {
                   "id": 439,
@@ -835,7 +848,8 @@
                                                   "slots": [
                                                     2
                                                   ],
-                                                  "slots_total": 2
+                                                  "slots_total": 2,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/NBfRs89/despots-thunderclap"
                                                 }
                                               ],
                                               "element": "Thunder",
@@ -879,7 +893,8 @@
                                               "slots": [
                                                 2
                                               ],
-                                              "slots_total": 2
+                                              "slots_total": 2,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpfzsVl/usurpers-growl"
                                             }
                                           ],
                                           "element": "Thunder",
@@ -923,7 +938,8 @@
                                           "slots": [
                                             2
                                           ],
-                                          "slots_total": 2
+                                          "slots_total": 2,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fYsL2/usurpers-growl"
                                         }
                                       ],
                                       "element": "Thunder",
@@ -967,7 +983,8 @@
                                       "slots": [
                                         3
                                       ],
-                                      "slots_total": 3
+                                      "slots_total": 3,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/oMfMsZ5/lightning-drum-iv"
                                     }
                                   ],
                                   "element": "Thunder",
@@ -1011,7 +1028,8 @@
                                   "slots": [
                                     3
                                   ],
-                                  "slots_total": 3
+                                  "slots_total": 3,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/QYfwsR/lightning-drum-iii"
                                 }
                               ],
                               "element": "Thunder",
@@ -1055,7 +1073,8 @@
                               "slots": [
                                 3
                               ],
-                              "slots_total": 3
+                              "slots_total": 3,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfqsG/lightning-drum-ii"
                             }
                           ],
                           "element": "Thunder",
@@ -1099,7 +1118,8 @@
                           "slots": [
                             3
                           ],
-                          "slots_total": 3
+                          "slots_total": 3,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9fksq/lightning-drum-i"
                         }
                       ],
                       "element": "Thunder",
@@ -1141,7 +1161,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/AMf2sB/thunder-gaida-ii"
                     }
                   ],
                   "element": "Thunder",
@@ -1183,7 +1204,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/XJfNsv/thunder-gaida-i"
                 }
               ],
               "element": null,
@@ -1225,7 +1247,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/K3fxij/metal-bagpipe-iii"
             },
             {
               "id": 444,
@@ -1338,7 +1361,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqfofLM/taghrid-al-nasr-ii"
                                         },
                                         {
                                           "id": 2431,
@@ -1406,7 +1430,8 @@
                                                   "max_color": "white",
                                                   "has_sharpness_upgrade": false,
                                                   "slots": [],
-                                                  "slots_total": 0
+                                                  "slots_total": 0,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/G9fDWsq0/tigrex-horn"
                                                 }
                                               ],
                                               "element": "Blast",
@@ -1448,7 +1473,8 @@
                                               "max_color": "white",
                                               "has_sharpness_upgrade": false,
                                               "slots": [],
-                                              "slots_total": 0
+                                              "slots_total": 0,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/bXfvasDB/striped-dragonga"
                                             },
                                             {
                                               "id": 2434,
@@ -1507,7 +1533,8 @@
                                                   "max_color": "purple",
                                                   "has_sharpness_upgrade": true,
                                                   "slots": [],
-                                                  "slots_total": 0
+                                                  "slots_total": 0,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/QYfVKhJw/ogrebite"
                                                 }
                                               ],
                                               "element": "Sleep",
@@ -1549,7 +1576,8 @@
                                               "max_color": "purple",
                                               "has_sharpness_upgrade": true,
                                               "slots": [],
-                                              "slots_total": 0
+                                              "slots_total": 0,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfMauEX/accursed-wail"
                                             }
                                           ],
                                           "element": "Blast",
@@ -1591,7 +1619,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/vAfqWs8J/striped-dragonga"
                                         }
                                       ],
                                       "element": "Sleep",
@@ -1633,7 +1662,8 @@
                                       "max_color": "white",
                                       "has_sharpness_upgrade": false,
                                       "slots": [],
-                                      "slots_total": 0
+                                      "slots_total": 0,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/4zf7fVx/taghrid-al-nasr-i"
                                     }
                                   ],
                                   "element": "Sleep",
@@ -1675,7 +1705,8 @@
                                   "max_color": "white",
                                   "has_sharpness_upgrade": true,
                                   "slots": [],
-                                  "slots_total": 0
+                                  "slots_total": 0,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Rof6fv/dancing-davul-iii"
                                 }
                               ],
                               "element": "Sleep",
@@ -1717,7 +1748,8 @@
                               "max_color": "blue",
                               "has_sharpness_upgrade": false,
                               "slots": [],
-                              "slots_total": 0
+                              "slots_total": 0,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/0QfZfQ/dancing-davul-ii"
                             }
                           ],
                           "element": "Sleep",
@@ -1759,7 +1791,8 @@
                           "max_color": "blue",
                           "has_sharpness_upgrade": true,
                           "slots": [],
-                          "slots_total": 0
+                          "slots_total": 0,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKfZfj/dancing-davul-i"
                         }
                       ],
                       "element": null,
@@ -1801,7 +1834,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/yyfjfK/kulu-duda-iii"
                     }
                   ],
                   "element": null,
@@ -1843,7 +1877,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKfXfx/kulu-duda-ii"
                 },
                 {
                   "id": 450,
@@ -1949,7 +1984,8 @@
                                           "slots": [
                                             2
                                           ],
-                                          "slots_total": 2
+                                          "slots_total": 2,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpf5tV5/gold-chordmaker"
                                         }
                                       ],
                                       "element": "Fire",
@@ -1993,7 +2029,8 @@
                                       "slots": [
                                         2
                                       ],
-                                      "slots_total": 2
+                                      "slots_total": 2,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fVtLG/regal-flute"
                                     }
                                   ],
                                   "element": "Fire",
@@ -2037,7 +2074,8 @@
                                   "slots": [
                                     2
                                   ],
-                                  "slots_total": 2
+                                  "slots_total": 2,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/oMfgtZe/royal-chordmaker"
                                 }
                               ],
                               "element": "Fire",
@@ -2081,7 +2119,8 @@
                               "slots": [
                                 2
                               ],
-                              "slots_total": 2
+                              "slots_total": 2,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfytW/royal-chordmaker"
                             }
                           ],
                           "element": "Fire",
@@ -2125,7 +2164,8 @@
                           "slots": [
                             2
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9f7tZ/coral-chordmaker"
                         }
                       ],
                       "element": "Fire",
@@ -2169,7 +2209,8 @@
                       "slots": [
                         2
                       ],
-                      "slots_total": 2
+                      "slots_total": 2,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/eafWIK/queen-chordmaker"
                     }
                   ],
                   "element": "Fire",
@@ -2211,7 +2252,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/85fgIj/valkyrie-chordmaker"
                 }
               ],
               "element": null,
@@ -2253,7 +2295,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYfVfk/kulu-duda-i"
             },
             {
               "id": 454,
@@ -2378,7 +2421,8 @@
                                                 2,
                                                 1
                                               ],
-                                              "slots_total": 3
+                                              "slots_total": 3,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/3gf8TV9/laguna-drum-ii"
                                             }
                                           ],
                                           "element": "Water",
@@ -2423,7 +2467,8 @@
                                             2,
                                             1
                                           ],
-                                          "slots_total": 3
+                                          "slots_total": 3,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/QYfKT0K/laguna-drum-i"
                                         },
                                         {
                                           "id": 2442,
@@ -2491,7 +2536,8 @@
                                                   "max_color": "purple",
                                                   "has_sharpness_upgrade": false,
                                                   "slots": [],
-                                                  "slots_total": 0
+                                                  "slots_total": 0,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/OofZEcXK/cry-in-the-night"
                                                 }
                                               ],
                                               "element": "Poison",
@@ -2533,7 +2579,8 @@
                                               "max_color": "purple",
                                               "has_sharpness_upgrade": false,
                                               "slots": [],
-                                              "slots_total": 0
+                                              "slots_total": 0,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/lQfWAcbe/hidden-harmonic"
                                             }
                                           ],
                                           "element": "Poison",
@@ -2575,7 +2622,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/PafEQcoV/hidden-harmonic"
                                         }
                                       ],
                                       "element": "Water",
@@ -2619,7 +2667,8 @@
                                       "slots": [
                                         2
                                       ],
-                                      "slots_total": 2
+                                      "slots_total": 2,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfaTvy/water-tamtam-iv"
                                     }
                                   ],
                                   "element": "Water",
@@ -2663,7 +2712,8 @@
                                   "slots": [
                                     2
                                   ],
-                                  "slots_total": 2
+                                  "slots_total": 2,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKf3TN/water-tamtam-iii"
                                 }
                               ],
                               "element": "Water",
@@ -2707,7 +2757,8 @@
                               "slots": [
                                 2
                               ],
-                              "slots_total": 2
+                              "slots_total": 2,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/yyfXT3/water-tamtam-ii"
                             }
                           ],
                           "element": "Water",
@@ -2751,7 +2802,8 @@
                           "slots": [
                             2
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKfgTw/water-tamtam-i"
                         }
                       ],
                       "element": "Water",
@@ -2793,7 +2845,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYfZT0/aqua-bagpipe-iii"
                     },
                     {
                       "id": 460,
@@ -2897,7 +2950,8 @@
                                               "max_color": "purple",
                                               "has_sharpness_upgrade": true,
                                               "slots": [],
-                                              "slots_total": 0
+                                              "slots_total": 0,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fNuZo/lilim-glacia"
                                             }
                                           ],
                                           "element": "Ice",
@@ -2939,7 +2993,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/oMfluAq/hoarcry-sectored"
                                         }
                                       ],
                                       "element": "Ice",
@@ -2981,7 +3036,8 @@
                                       "max_color": "white",
                                       "has_sharpness_upgrade": false,
                                       "slots": [],
-                                      "slots_total": 0
+                                      "slots_total": 0,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/OofNuaN/legia-sectored"
                                     }
                                   ],
                                   "element": "Ice",
@@ -3023,7 +3079,8 @@
                                   "max_color": "white",
                                   "has_sharpness_upgrade": false,
                                   "slots": [],
-                                  "slots_total": 0
+                                  "slots_total": 0,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfNuNk/legia-sectored"
                                 }
                               ],
                               "element": "Ice",
@@ -3065,7 +3122,8 @@
                               "max_color": "blue",
                               "has_sharpness_upgrade": false,
                               "slots": [],
-                              "slots_total": 0
+                              "slots_total": 0,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9f6ug/sectored"
                             }
                           ],
                           "element": "Ice",
@@ -3107,7 +3165,8 @@
                           "max_color": "blue",
                           "has_sharpness_upgrade": false,
                           "slots": [],
-                          "slots_total": 0
+                          "slots_total": 0,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/AMfVuP/glacial-bagpipe-ii"
                         }
                       ],
                       "element": "Ice",
@@ -3149,7 +3208,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/XJfEux/glacial-bagpipe-i"
                     }
                   ],
                   "element": "Water",
@@ -3191,7 +3251,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/kVfWTv/aqua-bagpipe-ii"
                 }
               ],
               "element": "Water",
@@ -3233,7 +3294,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/6LfgTX/aqua-bagpipe-i"
             }
           ],
           "element": null,
@@ -3275,7 +3337,8 @@
           "max_color": "green",
           "has_sharpness_upgrade": false,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/72f6ik/metal-bagpipe-ii"
         }
       ],
       "element": null,
@@ -3317,7 +3380,8 @@
       "max_color": "green",
       "has_sharpness_upgrade": true,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/LofbiD/metal-bagpipe-i"
     },
     {
       "id": 464,
@@ -3459,7 +3523,8 @@
                                               "slots": [
                                                 3
                                               ],
-                                              "slots_total": 3
+                                              "slots_total": 3,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/5PfvFYP/mad-bone-horn-iii"
                                             },
                                             {
                                               "id": 2451,
@@ -3520,7 +3585,8 @@
                                                   "slots": [
                                                     4
                                                   ],
-                                                  "slots_total": 4
+                                                  "slots_total": 4,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/XJf5YhZY/sonorous-eisfyl"
                                                 }
                                               ],
                                               "element": "Ice",
@@ -3564,7 +3630,8 @@
                                               "slots": [
                                                 4
                                               ],
-                                              "slots_total": 4
+                                              "slots_total": 4,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/K3fx5Tq3/icespiel"
                                             }
                                           ],
                                           "element": "Ice",
@@ -3608,7 +3675,8 @@
                                           "slots": [
                                             3
                                           ],
-                                          "slots_total": 3
+                                          "slots_total": 3,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQfXFqq/mad-bone-horn-ii"
                                         }
                                       ],
                                       "element": "Ice",
@@ -3652,7 +3720,8 @@
                                       "slots": [
                                         3
                                       ],
-                                      "slots_total": 3
+                                      "slots_total": 3,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/RofQFyP/mad-bone-horn-i"
                                     }
                                   ],
                                   "element": "Ice",
@@ -3696,7 +3765,8 @@
                                   "slots": [
                                     3
                                   ],
-                                  "slots_total": 3
+                                  "slots_total": 3,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Yaf2FNx/heavy-bone-horn-ii"
                                 }
                               ],
                               "element": "Ice",
@@ -3740,7 +3810,8 @@
                               "slots": [
                                 2
                               ],
-                              "slots_total": 2
+                              "slots_total": 2,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/J4faFOy/heavy-bone-horn-i"
                             },
                             {
                               "id": 472,
@@ -3820,7 +3891,8 @@
                                             3,
                                             2
                                           ],
-                                          "slots_total": 5
+                                          "slots_total": 5,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/3gf7swq/gama-chorus-ii"
                                         },
                                         {
                                           "id": 2455,
@@ -3890,7 +3962,8 @@
                                                   "slots": [
                                                     1
                                                   ],
-                                                  "slots_total": 1
+                                                  "slots_total": 1,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9AfMGSjz/glavenus-horn"
                                                 }
                                               ],
                                               "element": "Fire",
@@ -3934,7 +4007,8 @@
                                               "slots": [
                                                 1
                                               ],
-                                              "slots_total": 1
+                                              "slots_total": 1,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9fv2Sw2/hell-horn"
                                             }
                                           ],
                                           "element": "Fire",
@@ -3978,7 +4052,8 @@
                                           "slots": [
                                             1
                                           ],
-                                          "slots_total": 1
+                                          "slots_total": 1,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/AMfklSlV/hell-horn"
                                         }
                                       ],
                                       "element": "Blast",
@@ -4023,7 +4098,8 @@
                                         3,
                                         2
                                       ],
-                                      "slots_total": 5
+                                      "slots_total": 5,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/QYf7s5Y/gama-chorus-i"
                                     }
                                   ],
                                   "element": "Blast",
@@ -4068,7 +4144,8 @@
                                     2,
                                     2
                                   ],
-                                  "slots_total": 4
+                                  "slots_total": 4,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/0QfOsYa/gama-horn-ii"
                                 }
                               ],
                               "element": "Blast",
@@ -4113,7 +4190,8 @@
                                 2,
                                 2
                               ],
-                              "slots_total": 4
+                              "slots_total": 4,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKfDsKg/gama-horn-i"
                             }
                           ],
                           "element": "Ice",
@@ -4157,7 +4235,8 @@
                           "slots": [
                             2
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/DzfjFAL/hard-bone-horn-iii"
                         }
                       ],
                       "element": null,
@@ -4199,7 +4278,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/NBfOFPx/hard-bone-horn-ii"
                     }
                   ],
                   "element": null,
@@ -4241,7 +4321,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpfjFwy/hard-bone-horn-i"
                 },
                 {
                   "id": 474,
@@ -4345,7 +4426,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": true,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/YafRs3o/anjanath-hum-ii"
                                         },
                                         {
                                           "id": 2460,
@@ -4406,7 +4488,8 @@
                                               "slots": [
                                                 1
                                               ],
-                                              "slots_total": 1
+                                              "slots_total": 1,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/BKfg5hD4/fulguring-horn-ii"
                                             },
                                             {
                                               "id": 2462,
@@ -4467,7 +4550,8 @@
                                                   "slots": [
                                                     4
                                                   ],
-                                                  "slots_total": 4
+                                                  "slots_total": 4,
+                                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQfMycq5/the-rasping-ballad"
                                                 }
                                               ],
                                               "element": "Paralysis",
@@ -4511,7 +4595,8 @@
                                               "slots": [
                                                 4
                                               ],
-                                              "slots_total": 4
+                                              "slots_total": 4,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/RofpWcyw/sulfurteinn-svild"
                                             }
                                           ],
                                           "element": "Thunder",
@@ -4553,7 +4638,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": true,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/xAfDEh9y/fulguring-horn-i"
                                         }
                                       ],
                                       "element": "Fire",
@@ -4595,7 +4681,8 @@
                                       "max_color": "white",
                                       "has_sharpness_upgrade": true,
                                       "slots": [],
-                                      "slots_total": 0
+                                      "slots_total": 0,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/J4fjsMb/anjanath-hum-i"
                                     }
                                   ],
                                   "element": "Fire",
@@ -4637,7 +4724,8 @@
                                   "max_color": "blue",
                                   "has_sharpness_upgrade": false,
                                   "slots": [],
-                                  "slots_total": 0
+                                  "slots_total": 0,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/BKfZsRA/anja-barone-iii"
                                 }
                               ],
                               "element": "Fire",
@@ -4679,7 +4767,8 @@
                               "max_color": "blue",
                               "has_sharpness_upgrade": true,
                               "slots": [],
-                              "slots_total": 0
+                              "slots_total": 0,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/xAfJspO/anja-barone-ii"
                             }
                           ],
                           "element": "Fire",
@@ -4721,7 +4810,8 @@
                           "max_color": "blue",
                           "has_sharpness_upgrade": true,
                           "slots": [],
-                          "slots_total": 0
+                          "slots_total": 0,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/WRfesxK/anja-barone-i"
                         }
                       ],
                       "element": "Fire",
@@ -4763,7 +4853,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqfYs7Y/blazing-horn-ii"
                     }
                   ],
                   "element": "Fire",
@@ -4805,7 +4896,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/4zfVsz9/blazing-horn-i"
                 }
               ],
               "element": null,
@@ -4847,7 +4939,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fGFNL/bone-horn-iii"
             },
             {
               "id": 479,
@@ -4963,7 +5056,8 @@
                                             2,
                                             1
                                           ],
-                                          "slots_total": 3
+                                          "slots_total": 3,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/72flcWe/datura-maestro-ii"
                                         },
                                         {
                                           "id": 2466,
@@ -5024,7 +5118,8 @@
                                               "slots": [
                                                 1
                                               ],
-                                              "slots_total": 1
+                                              "slots_total": 1,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Eafw3fMp/icicle-horn-ii"
                                             },
                                             {
                                               "id": 3227,
@@ -5074,7 +5169,8 @@
                                               "max_color": "purple",
                                               "has_sharpness_upgrade": false,
                                               "slots": [],
-                                              "slots_total": 0
+                                              "slots_total": 0,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/6LfbpCJl/bringuiro"
                                             }
                                           ],
                                           "element": "Ice",
@@ -5116,7 +5212,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Vlf8xCAr/icicle-horn-i"
                                         }
                                       ],
                                       "element": "Poison",
@@ -5161,7 +5258,8 @@
                                         2,
                                         1
                                       ],
-                                      "slots_total": 3
+                                      "slots_total": 3,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/LofAcLy/datura-maestro-i"
                                     }
                                   ],
                                   "element": "Poison",
@@ -5206,7 +5304,8 @@
                                     2,
                                     1
                                   ],
-                                  "slots_total": 3
+                                  "slots_total": 3,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/M0fRcYJ/datura-horn-iii"
                                 }
                               ],
                               "element": "Poison",
@@ -5251,7 +5350,8 @@
                                 1,
                                 1
                               ],
-                              "slots_total": 2
+                              "slots_total": 2,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/2Qf8cqp/datura-horn-ii"
                             }
                           ],
                           "element": "Poison",
@@ -5296,7 +5396,8 @@
                             1,
                             1
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/BKfwcR5/datura-horn-i"
                         }
                       ],
                       "element": "Poison",
@@ -5338,7 +5439,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/xAfkcpJ/blooming-horn-iii"
                     }
                   ],
                   "element": "Poison",
@@ -5380,7 +5482,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/WRfYcxY/blooming-horn-ii"
                 },
                 {
                   "id": 485,
@@ -5487,7 +5590,8 @@
                                             3,
                                             1
                                           ],
-                                          "slots_total": 4
+                                          "slots_total": 4,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/2QfJFYe/lumu-drone-ii"
                                         }
                                       ],
                                       "element": "Water",
@@ -5532,7 +5636,8 @@
                                         3,
                                         1
                                       ],
-                                      "slots_total": 4
+                                      "slots_total": 4,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/BKfjFD9/lumu-drone-i"
                                     },
                                     {
                                       "id": 2470,
@@ -5593,7 +5698,8 @@
                                           "slots": [
                                             2
                                           ],
-                                          "slots_total": 2
+                                          "slots_total": 2,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQfMjIqO/nyx-barone-ii"
                                         }
                                       ],
                                       "element": "Sleep",
@@ -5637,7 +5743,8 @@
                                       "slots": [
                                         2
                                       ],
-                                      "slots_total": 2
+                                      "slots_total": 2,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Rofp4Iy4/nyx-barone-i"
                                     }
                                   ],
                                   "element": "Water",
@@ -5682,7 +5789,8 @@
                                     3,
                                     1
                                   ],
-                                  "slots_total": 4
+                                  "slots_total": 4,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/G9fMFYv/lumu-barone-iii"
                                 }
                               ],
                               "element": "Water",
@@ -5727,7 +5835,8 @@
                                 2,
                                 1
                               ],
-                              "slots_total": 3
+                              "slots_total": 3,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/bXf8FLV/lumu-barone-ii"
                             },
                             {
                               "id": 490,
@@ -5807,7 +5916,8 @@
                                             2,
                                             2
                                           ],
-                                          "slots_total": 4
+                                          "slots_total": 4,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKfBfoj/bazel-valdi-rooksearer"
                                         }
                                       ],
                                       "element": "Blast",
@@ -5852,7 +5962,8 @@
                                         2,
                                         2
                                       ],
-                                      "slots_total": 4
+                                      "slots_total": 4,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/lQfpfNQ/rooksearer-drum"
                                     }
                                   ],
                                   "element": "Blast",
@@ -5897,7 +6008,8 @@
                                     2,
                                     2
                                   ],
-                                  "slots_total": 4
+                                  "slots_total": 4,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/9Af3fNe/bazelreid-rookslayer"
                                 }
                               ],
                               "element": "Blast",
@@ -5942,7 +6054,8 @@
                                 2,
                                 2
                               ],
-                              "slots_total": 4
+                              "slots_total": 4,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9f3f8r/rookslayer-drum"
                             }
                           ],
                           "element": "Water",
@@ -5987,7 +6100,8 @@
                             1,
                             1
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/vAfVF6j/lumu-barone-i"
                         }
                       ],
                       "element": null,
@@ -6029,7 +6143,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/EafzF37/lumu-horn-ii"
                     }
                   ],
                   "element": null,
@@ -6071,7 +6186,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/VlfjFZR/lumu-horn-i"
                 }
               ],
               "element": "Poison",
@@ -6113,7 +6229,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqflc78/blooming-horn-i"
             },
             {
               "id": 492,
@@ -6229,7 +6346,8 @@
                                             4,
                                             1
                                           ],
-                                          "slots_total": 5
+                                          "slots_total": 5,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpfrCyM/queens-flute-ii"
                                         }
                                       ],
                                       "element": "Paralysis",
@@ -6274,7 +6392,8 @@
                                         4,
                                         1
                                       ],
-                                      "slots_total": 5
+                                      "slots_total": 5,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7flCZ5/queen-vespoid-horn"
                                     }
                                   ],
                                   "element": "Paralysis",
@@ -6319,7 +6438,8 @@
                                     1,
                                     1
                                   ],
-                                  "slots_total": 2
+                                  "slots_total": 2,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/VlfqCZ8/queen-vespoid-horn"
                                 }
                               ],
                               "element": "Paralysis",
@@ -6364,7 +6484,8 @@
                                 1,
                                 1
                               ],
-                              "slots_total": 2
+                              "slots_total": 2,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/5PfZCDz/glass-royale"
                             }
                           ],
                           "element": "Paralysis",
@@ -6409,7 +6530,8 @@
                             1,
                             1
                           ],
-                          "slots_total": 2
+                          "slots_total": 2,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQf2Cbj/glass-royale"
                         }
                       ],
                       "element": "Paralysis",
@@ -6451,7 +6573,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/RofMCxq/sonic-horn-iii"
                     }
                   ],
                   "element": "Paralysis",
@@ -6493,7 +6616,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/0Qf0CYl/sonic-horn-ii"
                 },
                 {
                   "id": 498,
@@ -6597,7 +6721,8 @@
                                           "max_color": "white",
                                           "has_sharpness_upgrade": false,
                                           "slots": [],
-                                          "slots_total": 0
+                                          "slots_total": 0,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqfJCv0/baan-rattle-ii"
                                         },
                                         {
                                           "id": 2478,
@@ -6658,7 +6783,8 @@
                                               "slots": [
                                                 1
                                               ],
-                                              "slots_total": 1
+                                              "slots_total": 1,
+                                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKflbtvQ/brachydios-horn-ii"
                                             }
                                           ],
                                           "element": "Blast",
@@ -6702,7 +6828,8 @@
                                           "slots": [
                                             1
                                           ],
-                                          "slots_total": 1
+                                          "slots_total": 1,
+                                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYf95hWK/brachydios-horn-i"
                                         }
                                       ],
                                       "element": "Sleep",
@@ -6744,7 +6871,8 @@
                                       "max_color": "white",
                                       "has_sharpness_upgrade": false,
                                       "slots": [],
-                                      "slots_total": 0
+                                      "slots_total": 0,
+                                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/4zfqCyR/baan-rattle-i"
                                     }
                                   ],
                                   "element": "Sleep",
@@ -6786,7 +6914,8 @@
                                   "max_color": "blue",
                                   "has_sharpness_upgrade": false,
                                   "slots": [],
-                                  "slots_total": 0
+                                  "slots_total": 0,
+                                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/K3fYCrJ/baan-horn-iii"
                                 }
                               ],
                               "element": "Sleep",
@@ -6828,7 +6957,8 @@
                               "max_color": "blue",
                               "has_sharpness_upgrade": false,
                               "slots": [],
-                              "slots_total": 0
+                              "slots_total": 0,
+                              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/72fwCAV/baan-horn-ii"
                             }
                           ],
                           "element": "Sleep",
@@ -6870,7 +7000,8 @@
                           "max_color": "blue",
                           "has_sharpness_upgrade": false,
                           "slots": [],
-                          "slots_total": 0
+                          "slots_total": 0,
+                          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/LofJCza/baan-horn-i"
                         }
                       ],
                       "element": "Sleep",
@@ -6912,7 +7043,8 @@
                       "max_color": "green",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/YafZCNP/spiked-horn-ii"
                     }
                   ],
                   "element": "Sleep",
@@ -6954,7 +7086,8 @@
                   "max_color": "green",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/J4fYCO4/spiked-horn-i"
                 }
               ],
               "element": "Paralysis",
@@ -6996,7 +7129,8 @@
               "max_color": "green",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKfeCKl/sonic-horn-i"
             }
           ],
           "element": null,
@@ -7038,7 +7172,8 @@
           "max_color": "green",
           "has_sharpness_upgrade": true,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/oMf7FqL/bone-horn-ii"
         }
       ],
       "element": null,
@@ -7080,7 +7215,8 @@
       "max_color": "yellow",
       "has_sharpness_upgrade": false,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Oof0F55/bone-horn-i"
     },
     {
       "id": 503,
@@ -7169,7 +7305,8 @@
                         1,
                         1
                       ],
-                      "slots_total": 2
+                      "slots_total": 2,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/eafxSoz/dragonseal-aldhorn-ii"
                     },
                     {
                       "id": 2482,
@@ -7222,7 +7359,8 @@
                         1,
                         1
                       ],
-                      "slots_total": 2
+                      "slots_total": 2,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/zQfMrHqZ/austere-paradise"
                     }
                   ],
                   "element": "Dragon",
@@ -7267,7 +7405,8 @@
                     1,
                     1
                   ],
-                  "slots_total": 2
+                  "slots_total": 2,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/85fOSBD/dragonseal-aldhorn-i"
                 }
               ],
               "element": "Dragon",
@@ -7312,7 +7451,8 @@
                 1,
                 1
               ],
-              "slots_total": 2
+              "slots_total": 2,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/ZKfESKW/dragonbone-auldhorn-iii"
             }
           ],
           "element": "Dragon",
@@ -7354,7 +7494,8 @@
           "max_color": "green",
           "has_sharpness_upgrade": false,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/yyfrS6l/dragonbone-auldhorn-ii"
         },
         {
           "id": 506,
@@ -7431,7 +7572,8 @@
                       "max_color": "white",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/RoflTyV/thunderwail-feyhorn"
                     },
                     {
                       "id": 2484,
@@ -7483,7 +7625,8 @@
                       "slots": [
                         1
                       ],
-                      "slots_total": 1
+                      "slots_total": 1,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/OofZ8Uag/hydros-horn"
                     }
                   ],
                   "element": "Thunder",
@@ -7525,7 +7668,8 @@
                   "max_color": "blue",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/xAfET0p/thunderbolt-horn-ii"
                 }
               ],
               "element": "Thunder",
@@ -7567,7 +7711,8 @@
               "max_color": "blue",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/WRfVT8Z/thunderbolt-horn-i"
             }
           ],
           "element": "Thunder",
@@ -7609,7 +7754,8 @@
           "max_color": "green",
           "has_sharpness_upgrade": false,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqfjT7j/thundercry-horn"
         }
       ],
       "element": "Dragon",
@@ -7651,7 +7797,8 @@
       "max_color": "green",
       "has_sharpness_upgrade": false,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKfwSbR/dragonbone-auldhorn-i"
     },
     {
       "id": 509,
@@ -7737,7 +7884,8 @@
                       "max_color": "white",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/eafkFo2/teostras-musica"
                     }
                   ],
                   "element": "Blast",
@@ -7779,7 +7927,8 @@
                   "max_color": "white",
                   "has_sharpness_upgrade": true,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/RofgF5Y/teostras-orphee"
                 }
               ],
               "element": "Blast",
@@ -7821,7 +7970,8 @@
               "max_color": "white",
               "has_sharpness_upgrade": true,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/0QfgFg9/teostras-tiple"
             },
             {
               "id": 513,
@@ -7874,7 +8024,8 @@
                 3,
                 3
               ],
-              "slots_total": 6
+              "slots_total": 6,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/VlfkCyp/xeno-manasheena"
             }
           ],
           "element": "Dragon",
@@ -7916,7 +8067,8 @@
           "max_color": "blue",
           "has_sharpness_upgrade": true,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/EafeUVR/blacksteel-dragonhorn-ii"
         }
       ],
       "element": "Dragon",
@@ -7958,7 +8110,8 @@
       "max_color": "blue",
       "has_sharpness_upgrade": true,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/VlfoUyy/blacksteel-dragonhorn-i"
     },
     {
       "id": 1160,
@@ -8026,7 +8179,8 @@
               "max_color": "purple",
               "has_sharpness_upgrade": true,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/q9fvaFkj/fates-dirge"
             }
           ],
           "element": "Dragon",
@@ -8068,7 +8222,8 @@
           "max_color": "white",
           "has_sharpness_upgrade": true,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/K3fx6FRM/deep-vero"
         }
       ],
       "element": "Dragon",
@@ -8110,7 +8265,8 @@
       "max_color": "white",
       "has_sharpness_upgrade": true,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/72f6vF8a/devils-maestro"
     },
     {
       "id": 1214,
@@ -8181,7 +8337,8 @@
                 2,
                 1
               ],
-              "slots_total": 3
+              "slots_total": 3,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/wqfOOubb/soulfire-chorus-blaze"
             }
           ],
           "element": "Blast",
@@ -8225,7 +8382,8 @@
           "slots": [
             1
           ],
-          "slots_total": 1
+          "slots_total": 1,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/6Lf77uBq/empress-roar-blaze"
         },
         {
           "id": 1216,
@@ -8287,7 +8445,8 @@
                 2,
                 2
               ],
-              "slots_total": 4
+              "slots_total": 4,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/kVfAeTp4/soulfire-chorus-ruin"
             }
           ],
           "element": "Blast",
@@ -8331,7 +8490,8 @@
           "slots": [
             2
           ],
-          "slots_total": 2
+          "slots_total": 2,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Rofp3T56/empress-roar-ruin"
         },
         {
           "id": 1217,
@@ -8393,7 +8553,8 @@
                 3,
                 3
               ],
-              "slots_total": 6
+              "slots_total": 6,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKflzsMY/soulfire-chorus-styx"
             }
           ],
           "element": "Blast",
@@ -8438,7 +8599,8 @@
             3,
             1
           ],
-          "slots_total": 4
+          "slots_total": 4,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/5PfbXsr0/empress-roar-styx"
         }
       ],
       "element": "Blast",
@@ -8482,7 +8644,8 @@
       "slots": [
         1
       ],
-      "slots_total": 1
+      "slots_total": 1,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/M0fkkuMR/empress-roar"
     },
     {
       "id": 2414,
@@ -8568,7 +8731,8 @@
                       "max_color": "white",
                       "has_sharpness_upgrade": false,
                       "slots": [],
-                      "slots_total": 0
+                      "slots_total": 0,
+                      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/YafWOHBb/defender-rally-horn-v"
                     }
                   ],
                   "element": "Blast",
@@ -8610,7 +8774,8 @@
                   "max_color": "blue",
                   "has_sharpness_upgrade": false,
                   "slots": [],
-                  "slots_total": 0
+                  "slots_total": 0,
+                  "kiranico_url": "https://mhworld.kiranico.com/en/weapons/J4fEeHYo/defender-rally-horn-iv"
                 }
               ],
               "element": "Blast",
@@ -8652,7 +8817,8 @@
               "max_color": "blue",
               "has_sharpness_upgrade": false,
               "slots": [],
-              "slots_total": 0
+              "slots_total": 0,
+              "kiranico_url": "https://mhworld.kiranico.com/en/weapons/Dzf7xHPR/defender-rally-horn-iii"
             }
           ],
           "element": "Blast",
@@ -8694,7 +8860,8 @@
           "max_color": "blue",
           "has_sharpness_upgrade": true,
           "slots": [],
-          "slots_total": 0
+          "slots_total": 0,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/NBf5kF8A/defender-rally-horn-ii"
         }
       ],
       "element": "Blast",
@@ -8736,7 +8903,8 @@
       "max_color": "green",
       "has_sharpness_upgrade": false,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/rpf9gHVa/defender-rally-horn-i"
     },
     {
       "id": 3142,
@@ -8797,7 +8965,8 @@
           "slots": [
             4
           ],
-          "slots_total": 4
+          "slots_total": 4,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/YafWeiq8/denden-doomsounder"
         }
       ],
       "element": "Thunder",
@@ -8841,7 +9010,8 @@
       "slots": [
         4
       ],
-      "slots_total": 4
+      "slots_total": 4,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/eafDbFE9/denden-daiko"
     },
     {
       "id": 3144,
@@ -8891,7 +9061,8 @@
       "max_color": "purple",
       "has_sharpness_upgrade": false,
       "slots": [],
-      "slots_total": 0
+      "slots_total": 0,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/AMfkMi40/demonlord-wardrum"
     },
     {
       "id": 3145,
@@ -8952,7 +9123,8 @@
           "slots": [
             2
           ],
-          "slots_total": 2
+          "slots_total": 2,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKfl3CEl/stygian-tristitia"
         }
       ],
       "element": "Dragon",
@@ -8996,7 +9168,8 @@
       "slots": [
         2
       ],
-      "slots_total": 2
+      "slots_total": 2,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYf9kFBa/brimstren-drakesong"
     },
     {
       "id": 3147,
@@ -9049,7 +9222,8 @@
         4,
         3
       ],
-      "slots_total": 7
+      "slots_total": 7,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/a7fLjTZr/lightbreak-timbre"
     },
     {
       "id": 3204,
@@ -9111,7 +9285,8 @@
             2,
             2
           ],
-          "slots_total": 4
+          "slots_total": 4,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/oMfZ6FXA/alatreon-revival"
         }
       ],
       "element": "Dragon",
@@ -9155,7 +9330,8 @@
       "slots": [
         2
       ],
-      "slots_total": 2
+      "slots_total": 2,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/OofZRFrX/alatreon-harmony"
     },
     {
       "id": 3248,
@@ -9217,7 +9393,8 @@
             4,
             4
           ],
-          "slots_total": 8
+          "slots_total": 8,
+          "kiranico_url": "https://mhworld.kiranico.com/en/weapons/gKfqlfM7/fatalis-menace-wailer"
         }
       ],
       "element": "Dragon",
@@ -9262,7 +9439,8 @@
         4,
         4
       ],
-      "slots_total": 8
+      "slots_total": 8,
+      "kiranico_url": "https://mhworld.kiranico.com/en/weapons/jYfy9fvj/fatalis-menace"
     }
   ],
   "children_map": {
