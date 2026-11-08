@@ -8,6 +8,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Top Left Mode Controls -->
+  <div class="top-controls-corner" id="top-controls-corner" style="display: none;"></div>
+  <div class="top-controls" id="top-controls">
+    <button type="button" id="toggle-rarity-btn" class="toggle-mode-btn" aria-pressed="false" title="Organize horns by Level / Stars (★1–12)">
+      <span class="mode-btn-icon">★</span>
+      <span class="mode-btn-text">Organize by Stars</span>
+    </button>
+  </div>
+
   <aside id="sidebar">
     <div class="sidebar-header">
       <h2>Hunting Horn Melodies</h2>
@@ -91,6 +100,8 @@
     <span class="toggle-icon">›</span>
   </button>
   <main id="container">
+    <div id="rarity-columns-bg" class="rarity-columns-bg" style="display: none;"></div>
+    <div id="rarity-header-bar" class="rarity-header-bar" style="display: none;"></div>
     <div id="path-bar" class="path-bar" style="display: none;">
       <span class="path-title">Upgrade Path:</span>
       <div id="path-breadcrumbs" class="path-breadcrumbs"></div>

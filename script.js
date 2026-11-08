@@ -44,6 +44,22 @@ const SHARPNESS_COLORS = {
   purple: "#c084fc"
 };
 
+// Signature MHW Rarity tier colors
+const RARITY_COLORS = {
+  1: "#94a3b8",
+  2: "#f1f5f9",
+  3: "#86efac",
+  4: "#60a5fa",
+  5: "#c084fc",
+  6: "#f472b6",
+  7: "#f87171",
+  8: "#38bdf8",
+  9: "#fb923c",
+  10: "#cbd5e1",
+  11: "#facc15",
+  12: "#2dd4bf"
+};
+
 // Return accent style for the top border of the card
 function getSharpnessAccent(node) {
   const base = node.base_color || "green";
@@ -194,6 +210,27 @@ Promise.all([
   const ctx = canvas.getContext("2d");
   const sidebar = document.getElementById("sidebar");
   const toggleSidebarBtn = document.getElementById("toggle-sidebar");
+  const rarityHeaderBar = document.getElementById("rarity-header-bar");
+  const rarityColumnsBg = document.getElementById("rarity-columns-bg");
+  const topControlsCorner = document.getElementById("top-controls-corner");
+  const toggleRarityBtn = document.getElementById("toggle-rarity-btn");
+  let isRarityMode = false;
+
+  // 12 Rarity columns configuration
+  // Consecutive same-rarity horns in an upgrade chain require sub-columns to prevent overlaps:
+  // ★1 (2 sub-cols), ★6 (2 sub-cols), ★9 (2 sub-cols), ★10 (2 sub-cols).
+  // All other star levels require 1 sub-column.
+  const subColCounts = { 1: 2, 2: 1, 3: 1, 4: 1, 5: 1, 6: 2, 7: 1, 8: 1, 9: 2, 10: 2, 11: 1, 12: 1 };
+  const subColWidth = 230;
+  const colStarts = {};
+  const colWidths = {};
+  let currentRarityStartX = 200;
+
+  for (let r = 1; r <= 12; r++) {
+    colStarts[r] = currentRarityStartX;
+    colWidths[r] = subColCounts[r] * subColWidth;
+    currentRarityStartX += colWidths[r];
+  }
 
   // Create dictionary of song ID -> song Name
   const songNameMap = new Map();
@@ -208,10 +245,11 @@ Promise.all([
 
   // Layout spacing
   const nodeWidth = 180;
-  const nodeHeight = 94;
+  const nodeHeight = 102;
   const spacingX = 240;
-  const leafSpacingY = 110;
-  const treeGapY = 55;
+  const leafSpacingY = 126;
+  const subTreeGapY = 24;
+  const treeGapY = 70;
 
   // Resize canvas to cover container
   function resizeCanvas() {
@@ -419,12 +457,13 @@ Promise.all([
       songPanel.style.display = "none";
     });
 
+    node.el = div;
     container.appendChild(div);
     return div;
   }
 
   // Draw hierarchical connection lines on canvas
-  function drawConnections(allPlacedNodes) {
+  function drawConnections(allPlacedNodes, isRarity = isRarityMode) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.strokeStyle = "#475569";
     ctx.lineWidth = 2;
@@ -466,7 +505,10 @@ Promise.all([
         const childYList = children.map(c => c.y + (nodeHeight / 2));
         const minY = Math.min(...childYList);
         const maxY = Math.max(...childYList);
-        const midX = x1 + Math.round((spacingX - nodeWidth) / 2);
+        const minChildX = Math.min(...children.map(c => c.x));
+        const midX = isRarity
+          ? (x1 + Math.round((minChildX - x1) / 2))
+          : (x1 + Math.round((spacingX - nodeWidth) / 2));
 
         // Horizontal stem from parent to midX
         ctx.beginPath();
@@ -499,19 +541,43 @@ Promise.all([
   // Leaves get sequential leafY. Parent nodes are vertically centered
   // exactly between their first and last child.
   // ------------------------------------------------------------------------
-  let currentLeafY = 40;
+  let currentLeafY = 70;
   const allPlacedNodes = [];
 
-  function computeNodePositions(node, depth = 0, parentId = null) {
+  function computeNodePositions(node, depth = 0, parent = null) {
     node.depth = depth;
-    node.parentId = parentId;
-    node.x = depth * spacingX + 40;
+    node.parentId = parent ? parent.id : null;
+    node.treeX = depth * spacingX + 40;
+    node.x = node.treeX;
+
+    const r = node.rarity;
+    const isWide = subColCounts[r] === 2;
+    const pSame = parent && parent.rarity === r;
+    const cSame = node.children && node.children.some(c => c.rarity === r);
+
+    if (pSame) {
+      node.subCol = (parent.subCol || 0) + 1;
+      node.rarityX = colStarts[r] + (node.subCol * subColWidth) + 25;
+    } else if (cSame) {
+      node.subCol = 0;
+      node.rarityX = colStarts[r] + 25;
+    } else {
+      node.subCol = 0;
+      // If a row only has 1 weapon in a wide column, put it in the middle (offset 140px),
+      // otherwise center it in the single column (offset 25px)
+      node.rarityX = colStarts[r] + (isWide ? 140 : 25);
+    }
 
     if (!node.children || node.children.length === 0) {
       node.y = currentLeafY;
       currentLeafY += leafSpacingY;
     } else {
-      node.children.forEach(child => computeNodePositions(child, depth + 1, node.id));
+      node.children.forEach((child, idx) => {
+        computeNodePositions(child, depth + 1, node);
+        if (idx < node.children.length - 1) {
+          currentLeafY += subTreeGapY;
+        }
+      });
       const firstY = node.children[0].y;
       const lastY = node.children[node.children.length - 1].y;
       node.y = Math.round((firstY + lastY) / 2);
@@ -541,19 +607,123 @@ Promise.all([
   // Render all DOM nodes
   allPlacedNodes.forEach(node => createNodeElement(node));
 
-  // Calculate maximum extent of all placed nodes
-  const maxNodeX = Math.max(...allPlacedNodes.map(n => n.x)) + nodeWidth;
+  // Populate Rarity Headers and Background Column Bands
+  if (rarityHeaderBar && rarityColumnsBg) {
+    for (let r = 1; r <= 12; r++) {
+      const startX = colStarts[r];
+      const width = colWidths[r];
+      const color = RARITY_COLORS[r] || "#facc15";
+
+      // Column Header: only the stars and top accent line
+      const headerEl = document.createElement("div");
+      headerEl.className = "rarity-col-header";
+      headerEl.style.left = startX + "px";
+      headerEl.style.width = width + "px";
+      headerEl.style.setProperty("--col-accent", color);
+
+      headerEl.innerHTML = `<span class="col-star-badge" style="color: ${color}">★${r}</span>`;
+      rarityHeaderBar.appendChild(headerEl);
+
+      // Background Column Band
+      const bandEl = document.createElement("div");
+      bandEl.className = `rarity-col-band ${r % 2 === 0 ? 'band-even' : ''}`;
+      bandEl.style.left = startX + "px";
+      bandEl.style.width = width + "px";
+      rarityColumnsBg.appendChild(bandEl);
+    }
+  }
+
+  // Calculate maximum extent of all placed nodes for both modes
+  const maxTreeX = Math.max(...allPlacedNodes.map(n => n.treeX)) + nodeWidth;
+  const maxRarityX = Math.max(...allPlacedNodes.map(n => n.rarityX)) + nodeWidth;
   const maxNodeY = Math.max(currentLeafY, ...allPlacedNodes.map(n => n.y)) + nodeHeight;
 
   // Ensure container has generous padding to the right so rightmost horns
   // are never obscured by the fixed sidebar even when scrolled to the end
-  const totalWidth = maxNodeX + 420;
+  const totalWidthTree = maxTreeX + 420;
+  const totalWidthRarity = maxRarityX + 420;
   const totalHeight = maxNodeY + 120;
 
-  container.style.width = totalWidth + "px";
-  container.style.minWidth = totalWidth + "px";
+  container.style.width = totalWidthTree + "px";
+  container.style.minWidth = totalWidthTree + "px";
   container.style.height = totalHeight + "px";
   container.style.minHeight = totalHeight + "px";
+
+  // Mode switch animation controller
+  let modeAnimId = null;
+  function switchViewMode(targetRarityMode) {
+    isRarityMode = targetRarityMode;
+
+    // Update button UI
+    if (toggleRarityBtn) {
+      toggleRarityBtn.classList.toggle("active", isRarityMode);
+      toggleRarityBtn.setAttribute("aria-pressed", isRarityMode ? "true" : "false");
+      toggleRarityBtn.setAttribute("title", isRarityMode ? "Switch to standard Tree view" : "Organize horns by Level / Stars (★1–12)");
+      const iconEl = toggleRarityBtn.querySelector(".mode-btn-icon");
+      const textEl = toggleRarityBtn.querySelector(".mode-btn-text");
+      if (iconEl) iconEl.textContent = isRarityMode ? "🌳" : "★";
+      if (textEl) textEl.textContent = isRarityMode ? "Organize by Tree" : "Organize by Stars";
+    }
+
+    // Toggle headers, guides, and corner mask
+    if (rarityHeaderBar) rarityHeaderBar.style.display = isRarityMode ? "block" : "none";
+    if (rarityColumnsBg) rarityColumnsBg.style.display = isRarityMode ? "block" : "none";
+    if (topControlsCorner) topControlsCorner.style.display = isRarityMode ? "block" : "none";
+
+    // Update container width & canvas
+    const currentTotalWidth = isRarityMode ? totalWidthRarity : totalWidthTree;
+    container.style.width = currentTotalWidth + "px";
+    container.style.minWidth = currentTotalWidth + "px";
+    resizeCanvas();
+
+    // Smoothly animate nodes and connection lines
+    const duration = 320;
+    const startTime = performance.now();
+    const targets = allPlacedNodes.map(n => ({
+      node: n,
+      startX: n.x,
+      targetX: isRarityMode ? n.rarityX : n.treeX
+    }));
+
+    if (modeAnimId) cancelAnimationFrame(modeAnimId);
+
+    function step(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // easeOutCubic: 1 - (1 - progress)^3
+      const ease = 1 - Math.pow(1 - progress, 3);
+
+      targets.forEach(t => {
+        t.node.x = t.startX + (t.targetX - t.startX) * ease;
+        if (t.node.el) {
+          t.node.el.style.left = t.node.x + "px";
+        }
+      });
+
+      drawConnections(allPlacedNodes, isRarityMode);
+
+      if (progress < 1) {
+        modeAnimId = requestAnimationFrame(step);
+      } else {
+        targets.forEach(t => {
+          t.node.x = t.targetX;
+          if (t.node.el) {
+            t.node.el.style.left = t.node.x + "px";
+          }
+        });
+        drawConnections(allPlacedNodes, isRarityMode);
+        modeAnimId = null;
+      }
+    }
+
+    modeAnimId = requestAnimationFrame(step);
+  }
+
+  if (toggleRarityBtn) {
+    toggleRarityBtn.addEventListener("click", () => {
+      switchViewMode(!isRarityMode);
+    });
+  }
 
   // Initial canvas sizing and line draw
   resizeCanvas();

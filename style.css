@@ -17,6 +17,149 @@ body {
 }
 
 /* --------------------------------------------------------------------------
+   Top Controls & Mode Toggle
+   -------------------------------------------------------------------------- */
+.top-controls-corner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 48px;
+  background: #12141a;
+  border-right: 1px solid #2a3142;
+  border-bottom: 1px solid #2a3142;
+  z-index: 950;
+  pointer-events: none;
+}
+
+.top-controls {
+  position: fixed;
+  top: 8px;
+  left: 14px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-mode-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #1c202b;
+  border: 1px solid #3d465c;
+  border-radius: 8px;
+  padding: 6px 13px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  height: 32px;
+}
+
+.toggle-mode-btn:hover {
+  background: #252b3a;
+  border-color: #5d677f;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.toggle-mode-btn .mode-btn-icon {
+  font-size: 0.95rem;
+  color: #facc15;
+  transition: transform 0.2s ease;
+}
+
+.toggle-mode-btn.active {
+  background: #1a2336;
+  border-color: #facc15;
+  color: #fef08a;
+  box-shadow: 0 0 12px rgba(250, 204, 21, 0.25), 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.toggle-mode-btn.active .mode-btn-icon {
+  color: #4ade80;
+}
+
+/* --------------------------------------------------------------------------
+   Rarity Columns Header Bar & Column Background
+   -------------------------------------------------------------------------- */
+.rarity-header-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: rgba(18, 20, 26, 0.96);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #2a3142;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.rarity-col-header {
+  position: absolute;
+  top: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.rarity-col-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--col-accent, #94a3b8);
+  box-shadow: 0 1px 6px var(--col-accent, #94a3b8);
+}
+
+.rarity-col-header .col-star-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--col-accent, #facc15);
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+}
+
+/* Background Column Tracks */
+.rarity-columns-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rarity-col-band {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-right: 1px dashed rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+}
+
+.rarity-col-band.band-even {
+  background: rgba(255, 255, 255, 0.008);
+}
+
+/* --------------------------------------------------------------------------
    Container & Canvas
    -------------------------------------------------------------------------- */
 #container {
